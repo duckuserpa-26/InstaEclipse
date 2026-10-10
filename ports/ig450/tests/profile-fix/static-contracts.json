@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "check": "com.instagram.base.activity.IgFragmentActivity.dispatchTouchEvent(Landroid/view/MotionEvent;)Z",
+      "passed": true
+    },
+    {
+      "check": "com.instagram.profile.fragment.UserDetailFragment.onResume()V",
+      "passed": true
+    },
+    {
+      "check": "com.instagram.profile.fragment.UserDetailFragment.onPause()V",
+      "passed": true
+    },
+    {
+      "check": "com.instagram.profile.fragment.UserDetailFragment.onDestroyView()V",
+      "passed": true
+    },
+    {
+      "check": "com.instagram.profile.fragment.UserDetailFragment.A0r()Lcom/instagram/user/model/User;",
+      "passed": true
+    },
+    {
+      "check": "com.instagram.user.model.User.A1C()Lcom/instagram/api/schemas/ProfilePicUrlInfo;",
+      "passed": true
+    },
+    {
+      "check": "com.instagram.user.model.User.A8N()Ljava/util/List;",
+      "passed": true
+    },
+    {
+      "check": "com.instagram.user.model.User.A1g()Lcom/instagram/common/typedurl/ImageUrl;",
+      "passed": true
+    },
+    {
+      "check": "com.instagram.user.model.User.A89()Ljava/lang/String;",
+      "passed": true
+    },
+    {
+      "check": "com.instagram.api.schemas.ProfilePicUrlInfo.getUrl()Ljava/lang/String;",
+      "passed": true
+    },
+    {
+      "check": "activity observer replaces container-ID interception",
+      "passed": true
+    },
+    {
+      "check": "no stale Instagram 449 getters remain in profile hook",
+      "passed": true
+    }
+  ],
+  "runtime_tested": false
+}

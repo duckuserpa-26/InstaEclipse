@@ -1,0 +1,15 @@
+{
+  "apk": "InstaEclipse-IG450-dev4-collaudo.apk",
+  "sha256": "7c3faa7d9a97618da47187c599c2e21900745802bc84910783f28201f68b5d82",
+  "versionCode": 71,
+  "versionName": "0.7.0-relations.3-IG450-dev4",
+  "new_jvm_assertions": 44,
+  "total_jvm_assertions": 122,
+  "static_checks": 179,
+  "all_passed": true,
+  "tested_dex_matches_signed_apk": true,
+  "signature_android_13": true,
+  "zip_crc_and_alignment": true,
+  "android_runtime_tests": 0,
+  "status": "TEST_BUILD"
+}

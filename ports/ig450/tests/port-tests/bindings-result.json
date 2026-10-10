@@ -1,0 +1,123 @@
+{
+  "instagram_version": "450.0.0.50.77",
+  "instagram_version_code": 385611438,
+  "target_device_reported_by_user": {
+    "android": "13",
+    "framework": "Vector 2.2",
+    "tested": false
+  },
+  "checks": [
+    {
+      "check": "PendingLikeStore superclass",
+      "passed": true
+    },
+    {
+      "check": "X.0FJM.A0D(Ljava/lang/String;Ljava/lang/Object;)V",
+      "passed": true
+    },
+    {
+      "check": "X.0FJM.A0G(Ljava/lang/String;)Z",
+      "passed": true
+    },
+    {
+      "check": "X.0FJM.A0B(Ljava/lang/String;)V",
+      "passed": true
+    },
+    {
+      "check": "X.0FJM.A0E(Ljava/util/Map;)V",
+      "passed": true
+    },
+    {
+      "check": "X.0FJM.A0I()V",
+      "passed": true
+    },
+    {
+      "check": "X.00hD.A0I()V",
+      "passed": true
+    },
+    {
+      "check": "X.0FJM.A02:Ljava/lang/Object;",
+      "passed": true
+    },
+    {
+      "check": "X.0FJM.A03:Ljava/util/LinkedHashMap;",
+      "passed": true
+    },
+    {
+      "check": "X.0FJM.A04:Ljava/util/Map;",
+      "passed": true
+    },
+    {
+      "check": "X.0FJM.A05:Lcom/instagram/common/session/UserSession;",
+      "passed": true
+    },
+    {
+      "check": "X.0XGx.A04:Ljava/lang/String;",
+      "passed": true
+    },
+    {
+      "check": "X.0XGx.A05:Ljava/lang/String;",
+      "passed": true
+    },
+    {
+      "check": "X.0XGx.A00:J",
+      "passed": true
+    },
+    {
+      "check": "X.00hB.A00(Lcom/instagram/common/session/UserSession;)LX/00hB;",
+      "passed": true
+    },
+    {
+      "check": "X.00hB.A01()V",
+      "passed": true
+    },
+    {
+      "check": "X.00hB.onSessionWillEnd()V",
+      "passed": true
+    },
+    {
+      "check": "X.00hB.A04:Ljava/util/Map;",
+      "passed": true
+    },
+    {
+      "check": "X.0C0d.invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "passed": true
+    },
+    {
+      "check": "X.0C0d.$t:I",
+      "passed": true
+    },
+    {
+      "check": "X.00DR.A00:LX/00DR;",
+      "passed": true
+    },
+    {
+      "check": "X.08BW.onDoubleTap(Landroid/view/MotionEvent;)Z",
+      "passed": true
+    },
+    {
+      "check": "X.0YGg.A01: double-tap argument positions",
+      "passed": true
+    },
+    {
+      "check": "X.0E13.A05: double-tap argument positions",
+      "passed": true
+    },
+    {
+      "check": "Reels callback kind 6 enters LikeNavigator",
+      "passed": true
+    },
+    {
+      "check": "Fourth callback argument is decoded as Boolean",
+      "passed": true
+    },
+    {
+      "check": "Action/media/time write sites",
+      "passed": true
+    }
+  ],
+  "all_contracts_passed": true,
+  "runtime_tests": 0,
+  "release_allowed": false,
+  "candidate_sha256": "25e04668ecb12f36c87af7271eb150b8d2a51f7a0e9b6d1ae7afb08b60486087"
+}

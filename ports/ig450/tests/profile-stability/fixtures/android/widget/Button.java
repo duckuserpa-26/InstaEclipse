@@ -1,0 +1,1 @@
+package android.widget;public class Button extends TextView {public Button(){}public Button(android.content.Context c){context=c;}public void setText(CharSequence t){}public void setOnClickListener(android.view.View.OnClickListener l){}public void setEnabled(boolean b){throw new IllegalStateException("fixture button failure");}}

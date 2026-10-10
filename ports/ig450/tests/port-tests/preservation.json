@@ -1,0 +1,78 @@
+{
+  "files_checked": 8416,
+  "missing_original_files": [],
+  "changed_files": [
+    "smali_classes3/ps/reso/instaeclipse/BuildConfig.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantMediaQuality.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantEdgeNavigationHook$6.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantEdgeNavigationHook$Bindings.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/FeedVideoDownloadHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/PostDownloadContextMenuHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantNativeMenuHook$Bindings.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/ReelDownloadHook$5.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantReplayCore$Bindings.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantUploadHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantAudioHook$3.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantMediaMenuHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantAudioHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/ReelDownloadHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantEdgeNavigationHook$1.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantAudioHook$6.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/StoryDownloadHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/media/InstantEdgeNavigationHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/ghost/GhostStorySeenHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/ghost/GhostPermanentViewHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/relations/RelationCollector.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/relations/RelationNativeRequests.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/ui/CustomFontHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/misc/DisableDoubleTapLikeHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/misc/LikeDelayHook.smali",
+    "smali_classes3/ps/reso/instaeclipse/mods/misc/DisableDoubleTapLikeHook$5.smali",
+    "smali_classes3/ps/reso/instaeclipse/utils/core/DexKitCache.smali",
+    "smali_classes3/ps/reso/instaeclipse/utils/core/VerifiedInstagramBuild.smali",
+    "smali_classes3/ps/reso/instaeclipse/Xposed/Module.smali"
+  ],
+  "changed_original_signatures": [
+    {
+      "file": "smali_classes3/ps/reso/instaeclipse/mods/misc/LikeDelayHook.smali",
+      "methods": [
+        "resolve(Ljava/lang/ClassLoader;Z)V"
+      ]
+    }
+  ],
+  "assets_and_libraries": [
+    {
+      "file": "assets/dexopt/baseline.profm",
+      "unchanged": true
+    },
+    {
+      "file": "assets/dexopt/baseline.prof",
+      "unchanged": true
+    },
+    {
+      "file": "assets/xposed_init",
+      "unchanged": true
+    },
+    {
+      "file": "assets/default_mc_overrides.json",
+      "unchanged": true
+    },
+    {
+      "file": "lib/armeabi-v7a/libdexkit.so",
+      "unchanged": true
+    },
+    {
+      "file": "lib/x86/libdexkit.so",
+      "unchanged": true
+    },
+    {
+      "file": "lib/x86_64/libdexkit.so",
+      "unchanged": true
+    },
+    {
+      "file": "lib/arm64-v8a/libdexkit.so",
+      "unchanged": true
+    }
+  ],
+  "runtime_tested": false
+}

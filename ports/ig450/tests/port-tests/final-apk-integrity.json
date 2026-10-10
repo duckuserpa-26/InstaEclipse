@@ -1,0 +1,1658 @@
+{
+  "apk_sha256": "6cde0f01772ac491ff730d729736e465422ecf1351e895f030680b7b77389872",
+  "zip_crc_error": null,
+  "tested_dex_matches_signed_apk": true,
+  "dex": [
+    {
+      "name": "classes3.dex",
+      "sha256": "98e419550204fe462807e35cd6be82705d723b1c089c6529a6ad139bfc05adf7"
+    },
+    {
+      "name": "classes2.dex",
+      "sha256": "c29ca3e543c02ce1c10f4959a6f7a5e42b6b231c4d13282f3b43cd4bb994c0d9"
+    },
+    {
+      "name": "classes.dex",
+      "sha256": "1c8754dd4ae345e046ca205bb67c00ba9185f7542dd278d60b490116db5d622a"
+    }
+  ],
+  "stored_entry_alignment": [
+    {
+      "entry": "resources.arsc",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldrtl-xhdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/ic_call_decline.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/ic_call_decline_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/osm_ic_follow_me.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/person.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_scrubber_control_off_mtrl_alpha.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/osm_ic_follow_me_on.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/osm_ic_center_map.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_scrubber_track_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/sharp_add_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_list_focused_holo.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_text_select_handle_left_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_text_select_handle_right_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/sharp_remove_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/ic_call_answer_video_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/marker_default_focused_base.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_scrubber_primary_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/ic_call_answer_video.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_text_select_handle_middle_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/twotone_navigation_black_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/osm_ic_ic_map_ortho.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/ic_call_answer.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/marker_default.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/round_navigation_white_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/ic_call_answer_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_list_longpressed_holo.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldrtl-xxhdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/ic_call_decline.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/ic_call_decline_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/osm_ic_follow_me.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/person.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_tab_indicator_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/osm_ic_follow_me_on.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/osm_ic_center_map.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/sharp_add_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_switch_track_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_text_select_handle_left_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_text_select_handle_right_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/sharp_remove_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/ic_call_answer_video_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/marker_default_focused_base.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/ic_call_answer_video.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/twotone_navigation_black_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/osm_ic_ic_map_ortho.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/ic_call_answer.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/marker_default.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/round_navigation_white_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/ic_call_answer_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldrtl-mdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-xhdpi/ic_launcher_round.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-xhdpi/ic_launcher_foreground.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-xhdpi/ic_launcher.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/bonuspack_bubble.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/center.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/moreinfo_arrow.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/next.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/zoom_out.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/ic_menu_mapmode.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/navto_small.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/previous.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/moreinfo_arrow_pressed.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/ic_menu_mylocation.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/ic_menu_offline.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/zoom_in.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable/ic_menu_compass.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-mdpi/ic_launcher_round.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-mdpi/ic_launcher_foreground.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-mdpi/ic_launcher.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/ic_call_decline.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_ab_share_pack_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/notification_bg_low_normal.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/notification_bg_normal_pressed.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_popup_background_mtrl_mult.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/notification_bg_normal.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/ic_call_decline_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/osm_ic_follow_me.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/notification_oversize_large_icon_bg.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/person.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_scrubber_control_off_mtrl_alpha.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_tab_indicator_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/osm_ic_follow_me_on.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/osm_ic_center_map.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_scrubber_track_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/sharp_add_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_list_pressed_holo_dark.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_switch_track_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_textfield_default_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_list_focused_holo.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_text_select_handle_left_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_text_select_handle_right_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/sharp_remove_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/ic_call_answer_video_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/marker_default_focused_base.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/notify_panel_notification_icon_bg.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_list_pressed_holo_light.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_scrubber_primary_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/ic_call_answer_video.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_text_select_handle_middle_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/twotone_navigation_black_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/osm_ic_ic_map_ortho.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_cab_background_top_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/notification_bg_low_pressed.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/ic_call_answer.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/marker_default.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/round_navigation_white_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/ic_call_answer_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_list_longpressed_holo.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/ic_call_decline.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_ab_share_pack_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/notification_bg_low_normal.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/notification_bg_normal_pressed.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_popup_background_mtrl_mult.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/notification_bg_normal.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/ic_call_decline_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/osm_ic_follow_me.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_btn_check_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_list_selector_disabled_holo_dark.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/person.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_scrubber_control_off_mtrl_alpha.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_tab_indicator_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/osm_ic_follow_me_on.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/osm_ic_center_map.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_scrubber_track_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/sharp_add_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_list_pressed_holo_dark.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_textfield_default_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_list_focused_holo.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_text_select_handle_left_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_text_select_handle_right_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/sharp_remove_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_btn_radio_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/ic_call_answer_video_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/marker_default_focused_base.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/notify_panel_notification_icon_bg.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_list_pressed_holo_light.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_scrubber_primary_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/ic_call_answer_video.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_text_select_handle_middle_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/twotone_navigation_black_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/osm_ic_ic_map_ortho.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_cab_background_top_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_textfield_search_default_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/notification_bg_low_pressed.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/ic_call_answer.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_list_divider_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_textfield_activated_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/marker_default.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/round_navigation_white_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/ic_call_answer_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_list_longpressed_holo.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_btn_radio_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-mdpi/abc_list_selector_disabled_holo_light.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldpi/ic_call_decline.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldpi/ic_call_decline_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldpi/ic_call_answer_video_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldpi/ic_call_answer_video.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldpi/ic_call_answer.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldpi/ic_call_answer_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-xxhdpi/ic_launcher_foreground.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-xxhdpi/ic_launcher.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-hdpi/ic_launcher_round.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-hdpi/ic_launcher_foreground.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-hdpi/ic_launcher.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-xxxhdpi/ic_launcher_foreground.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/mipmap-xxxhdpi/ic_launcher.webp",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldrtl-hdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/ic_call_decline.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_ab_share_pack_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/notification_bg_low_normal.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/notification_bg_normal_pressed.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_popup_background_mtrl_mult.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/notification_bg_normal.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00001.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_textfield_search_activated_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/ic_call_decline_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/osm_ic_follow_me.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_btn_check_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_list_selector_disabled_holo_dark.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/person.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_scrubber_control_off_mtrl_alpha.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_tab_indicator_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/osm_ic_follow_me_on.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_btn_check_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/osm_ic_center_map.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_scrubber_track_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/sharp_add_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_list_pressed_holo_dark.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_switch_track_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_textfield_default_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_list_focused_holo.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_text_select_handle_left_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_text_select_handle_right_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/sharp_remove_black_36.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/ic_call_answer_video_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/marker_default_focused_base.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/notify_panel_notification_icon_bg.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_list_pressed_holo_light.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_ic_commit_search_api_mtrl_alpha.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_scrubber_primary_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/ic_call_answer_video.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_scrubber_control_to_pressed_mtrl_005.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_text_select_handle_middle_mtrl.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/twotone_navigation_black_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/osm_ic_ic_map_ortho.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_cab_background_top_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_textfield_search_default_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_btn_switch_to_on_mtrl_00012.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/notification_bg_low_pressed.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/ic_call_answer.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_list_divider_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_textfield_activated_mtrl_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/marker_default.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/round_navigation_white_48.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/ic_call_answer_low.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_list_longpressed_holo.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_btn_radio_to_on_mtrl_000.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "res/drawable-ldrtl-xxxhdpi/abc_spinner_mtrl_am_alpha.9.png",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "classes3.dex",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "classes2.dex",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "classes.dex",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "assets/dexopt/baseline.prof",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "assets/dexopt/baseline.profm",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.startup_startup-runtime.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.core_core.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.customview_customview.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.legacy_legacy-support-core-utils.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/com.google.android.material_material.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.coordinatorlayout_coordinatorlayout.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/kotlinx_coroutines_android.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.vectordrawable_vectordrawable-animated.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.drawerlayout_drawerlayout.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.transition_transition.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.vectordrawable_vectordrawable.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.emoji2_emoji2.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.profileinstaller_profileinstaller.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.cardview_cardview.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.appcompat_appcompat.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.interpolator_interpolator.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.activity_activity.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.cursoradapter_cursoradapter.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.dynamicanimation_dynamicanimation.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.print_print.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.constraintlayout_constraintlayout.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.tracing_tracing.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.appcompat_appcompat-resources.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.loader_loader.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.documentfile_documentfile.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.annotation_annotation-experimental.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.core_core-ktx.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/kotlinx_coroutines_core.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.savedstate_savedstate.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.viewpager2_viewpager2.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.fragment_fragment.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.recyclerview_recyclerview.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.emoji2_emoji2-views-helper.version",
+      "alignment": 4,
+      "passed": true
+    },
+    {
+      "entry": "META-INF/androidx.viewpager_viewpager.version",
+      "alignment": 4,
+      "passed": true
+    }
+  ],
+  "android_runtime_tests": 0,
+  "release_allowed": false
+}

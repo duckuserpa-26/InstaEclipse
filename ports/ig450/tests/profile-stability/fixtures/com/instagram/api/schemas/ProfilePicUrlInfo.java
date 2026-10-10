@@ -1,0 +1,1 @@
+package com.instagram.api.schemas;public class ProfilePicUrlInfo {public String getUrl(){return "https://scontent.cdninstagram.com/hd.jpg";}public Integer getWidth(){return 1080;}public Integer getHeight(){return 1080;}}

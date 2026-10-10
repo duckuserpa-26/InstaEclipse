@@ -1,0 +1,1 @@
+package ps.reso.instaeclipse.utils.log;public class ModuleLog {public static boolean fail;public static java.util.List<String> lines=new java.util.ArrayList<>();public static void line(String s){if(fail)throw new IllegalStateException("fixture logging failure");lines.add(s);System.out.println(s);}}

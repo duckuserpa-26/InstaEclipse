@@ -1,0 +1,73 @@
+InstaEclipse 0.7.0-relations.3-IG450-dev2 — sorgenti e prove
+
+STATO: NON VALIDATO SU ANDROID. Non è una release pronta all'uso.
+Target: Instagram 450.0.0.50.77, versionCode 385611438; dispositivo richiesto
+Android 13 con root e Vector 2.2. Nessuna prova sul dispositivo eseguita.
+
+Risultati ottenuti
+- Compilazione APK riuscita; firma verificata anche per Android API 33.
+- 141 controlli statici su dichiarazioni e riferimenti semantici dell'APK fornito.
+- 61 asserzioni JVM su codice derivato dal DEX candidato: logica, instradamento
+  argomenti upload e costruzione dei binding con fixture strutturali.
+- 5 test del parser usato per l'analisi statica.
+- Integrità ZIP, allineamento e corrispondenza DEX testato/APK firmato verificate.
+- 8416 file originali Smali, asset e librerie controllati: nessun file rimosso;
+  asset e librerie native invariati. Questo NON prova la correttezza runtime.
+
+Interventi principali
+Aggiornati riferimenti della coda like e del doppio tap, raccolta e richieste
+relazioni, replay degli Instants, menu, navigazione, qualità media e audio,
+upload foto/video, font, modalità ghost e alcuni percorsi di download.
+29 file Smali originali modificati; 4 nuove classi Smali per InstantUpload450.
+La firma resolve(ClassLoader, boolean) di LikeDelayHook è stata sostituita
+intenzionalmente con resolve(ClassLoader, int) per selezionare la versione.
+La compatibilità con altre versioni di Instagram non è dichiarata.
+
+Contenuto e ripristino
+Questo archivio è un overlay, da applicare all'archivio sorgente già disponibile:
+InstaEclipse-0.7.0-relations.2-IG449-source.zip
+(Library ID libfile_a834a92c19bc8191aff50a8e43bea567).
+Estrarre il sorgente originale in candidate/, quindi copiare il contenuto di
+candidate/ di questo archivio sopra la stessa cartella, sovrascrivendo i file.
+L'elenco e gli hash delle modifiche sono in source-overlay-manifest.json.
+I sorgenti autorevoli sono Smali; candidate/java450 contiene il nuovo helper
+Java. Il vecchio java-decompiled è un riferimento e non un progetto Gradle
+ricostruibile 1:1. L'overlay comprende già lo Smali del nuovo helper.
+
+Build dalla radice del workspace (Java 17 e apktool 2.12.1):
+java -jar tools/apktool.jar b candidate/InstaEclipse-0.7.0-relations.2-IG449-source/apktool-source -o candidate/instaeclipse-450-UNVALIDATED-unsigned.apk
+
+Ripetizione dei test
+Servono anche l'APK Instagram base.apk fornito, decodificato con apktool in
+work/instagram450, dex-tools 2.4 in tools/dex-tools-v2.4 e Java 17.
+Eseguire prima python3 port-tests/reindex_instagram.py, poi
+bash port-tests/run_jvm_tests.sh.
+Le fixture generate e gli stub Android/Xposed servono solo ai test JVM e non
+vanno inclusi nell'APK. Non implementano Instagram, ART o Vector.
+La conversione DEX/JVM usa class version 50 per evitare problemi di stack map
+del convertitore; i test JVM non sostituiscono il caricamento DEX su Android.
+
+Firma
+Il candidato è stato firmato con la chiave di ricostruzione del sorgente
+baseline, NON con una chiave privata dell'autore originale. La chiave non è
+duplicata in questo archivio. SignCandidate.java e VerifyCandidate.java
+documentano firma e verifica; signature-test.log contiene i risultati.
+SHA256 del candidato firmato (non incluso):
+6cde0f01772ac491ff730d729736e465422ecf1351e895f030680b7b77389872
+
+Prove ancora necessarie
+Caricamento reale del modulo in Vector, risoluzione e installazione degli hook,
+comportamento UI, richieste di rete, coroutine upload, assenza di crash e
+regressione di tutte le funzionalità originali e aggiunte sul dispositivo.
+L'inventario originale è incluso in audit/results/inventory.json; i suoi stati
+runtime NOT_TESTED rimangono tali. La presenza dei simboli non vale come PASS.
+Per i download verificare contenuto, risoluzione, audio e destinazione; per
+ghost e replay verificare gli effetti osservabili anche da un secondo account;
+per relazioni verificare paginazione e isolamento degli account; per upload
+verificare sia foto sia video e gli errori/ritentativi. Nessuna di queste prove
+è stata eseguita qui. Nessuna garanzia di funzionamento al 100% è giustificata.
+L'archivio .apks caricato era incompleto; l'analisi usa il base.apk valido.
+
+L'APK non è incluso in rispetto della richiesta di non consegnare moduli
+prima del collaudo. È necessaria una sessione di test sul dispositivo prima
+di poter dichiarare conclusa la task.

@@ -1,0 +1,63 @@
+InstaEclipse IG450 dev3 — correzione pressione prolungata foto profilo
+
+Target: Instagram 450.0.0.50.77 (385611438), Android 13, Vector 2.2.
+Versione modulo: 0.7.0-relations.3-IG450-dev3, versionCode 70.
+Build di collaudo: non è stata eseguita su un dispositivo Android.
+
+Segnalazione: tenendo premuta la foto profilo non appare il menu con storie,
+foto a schermo intero e download.
+
+Correzioni
+- Il gesto viene osservato in IgFragmentActivity.dispatchTouchEvent, presente
+  nell'APK fornito, prima dell'inoltro ai componenti della schermata. Il vecchio
+  hook di ViewGroup limitato a android.R.id.content è stato rimosso.
+- La schermata profilo viene disattivata anche in onPause; il timer pendente
+  viene cancellato per evitare azioni riferite al profilo precedente.
+- Corretti i riferimenti di Instagram 450: UserDetailFragment.A0r,
+  User.A1C (HD), A8N (foto multiple), A1g (foto normale), A79 (username).
+- Un errore nella ricerca di un ID dell'avatar non blocca i candidati successivi.
+- Log ProfilePreview dedicati a installazione dev3, ripresa del profilo,
+  pressione riconosciuta e scadenza del timer, senza URL o dati dell'account.
+
+La segnalazione sul dispositivo non è stata riprodotta qui: il vecchio punto
+di intercettazione è fragile, ma senza log runtime non è dimostrato che fosse
+l'unica causa del mancato menu. Questa build corregge i problemi individuati
+e permette di distinguere le fasi se il problema persiste.
+
+Test eseguiti sul codice derivato dal DEX finale
+- 17 asserzioni JVM per il gesto con fixture UI: nessuna dipendenza dall'ID del
+  contenitore, tap breve, scorrimento, cancellazione, multitouch, tocco esterno,
+  apertura delle tre voci, annullamento del gesto nativo, assenza di duplicati,
+  scelta storie con invio del tap nativo, conversione delle coordinate, fallback
+  HD multiplo, cambio schermata e fallback nella ricerca dell'avatar.
+- 61 asserzioni JVM precedenti ripetute con il nuovo DEX: tutte passate.
+- 12 contratti statici specifici del profilo e 141 controlli precedenti passati.
+- Compilazione e verifica firma per Android 13 riuscite.
+Le fixture non eseguono Android, Vector, WebView, rete o salvataggio in galleria.
+La presenza e l'apertura del menu nei test non dimostrano che visualizzazione
+HD, storie e download funzionino sul dispositivo: queste prove sono pendenti.
+
+Il convertitore dex2jar ha prodotto un max_stack insufficiente in un metodo
+preesistente della classe. RecomputeMax.java ricalcola solo tale metadato JVM;
+le istruzioni e l'APK non vengono modificati. I test JVM non sostituiscono ART.
+
+Ripristino sorgenti
+Archivio cumulativo da sovrapporre al sorgente baseline IG449, già fornito:
+InstaEclipse-0.7.0-relations.2-IG449-source.zip.
+I sorgenti autorevoli sono gli Smali dentro candidate/.../apktool-source;
+candidate/java450 contiene l'helper upload Java aggiunto nel porting precedente.
+Le istruzioni e i risultati della dev2 rimangono in port-tests e audit come
+documentazione storica. Per questa correzione fanno fede profile-fix e questo file.
+
+Build:
+java -jar tools/apktool.jar b candidate/InstaEclipse-0.7.0-relations.2-IG449-source/apktool-source -o candidate/instaeclipse-450-dev3-unsigned.apk
+
+Test: bash profile-fix/run_tests.sh
+Richiede Java 17, apktool 2.12.1, dex-tools 2.4, gli APK e il workspace di analisi
+descritti nelle istruzioni dev2. Gli stub non devono essere inclusi nell'APK.
+
+Installare l'APK dev3 sopra la build di collaudo precedente, quindi riavviare
+Instagram (o il dispositivo) per ricaricare il modulo. Aprire un profilo e
+tenere premuta la foto per circa un secondo. Provare separatamente le tre voci.
+Se il menu non appare, inviare il log Vector prodotto dopo questa prova.
+Firma: stessa chiave di ricostruzione usata per dev2, non quella dell'autore.

@@ -1,0 +1,5542 @@
+{
+  "scope": "original query anchors; current mappings checked separately",
+  "queries": [
+    {
+      "file": "mods/ads/AdBlocker.java",
+      "line": 36,
+      "status": "INDIRECT_QUERY_MANUAL_REVIEW",
+      "candidates": null
+    },
+    {
+      "file": "mods/devops/BuildExpiredPopupHook.java",
+      "line": 57,
+      "kind": "method",
+      "anchors": [
+        "lockout_active"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/00qv;",
+          "public final A02(Landroidx/fragment/app/FragmentActivity;LX/01V6;)V"
+        ],
+        [
+          "LX/00qv;",
+          "public final A03(Z)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/devops/BuildExpiredPopupHook.java",
+      "line": 72,
+      "kind": "method",
+      "anchors": [
+        "snooze_expiration_lockout_manager"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0005;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/00qv;",
+          "public final A01(J)V"
+        ],
+        [
+          "LX/00qv;",
+          "public final A04()Z"
+        ],
+        [
+          "LX/00qv;",
+          "public final A05()Z"
+        ]
+      ]
+    },
+    {
+      "file": "mods/devops/DevOptionsUnlockHook.java",
+      "line": 58,
+      "kind": "class",
+      "anchors": [
+        "is_employee"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0000;",
+          ""
+        ],
+        [
+          "LX/00rm;",
+          ""
+        ],
+        [
+          "LX/07kM;",
+          ""
+        ],
+        [
+          "LX/0ANj;",
+          ""
+        ],
+        [
+          "LX/0nFF;",
+          ""
+        ],
+        [
+          "LX/0rRl;",
+          ""
+        ],
+        [
+          "LX/0tnP;",
+          ""
+        ],
+        [
+          "LX/0tsm;",
+          ""
+        ],
+        [
+          "Lcom/facebook/rti/push/service/FbnsServiceDelegate;",
+          ""
+        ],
+        [
+          "Lcom/facebook/rti/pushv2/service/FbnsServiceDelegateV2;",
+          ""
+        ]
+      ]
+    },
+    {
+      "file": "mods/devops/DevOptionsUnlockHook.java",
+      "line": 67,
+      "kind": "method",
+      "anchors": [
+        "is_employee"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0000;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/00rm;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/07kM;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0ANj;",
+          "public final A01(Landroid/content/Context;II)LX/092A;"
+        ],
+        [
+          "LX/0ANj;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0nFF;",
+          "public final A01(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;JJZZ)V"
+        ],
+        [
+          "LX/0rRl;",
+          "public static A00(LX/0rRl;)LX/0ZVC;"
+        ],
+        [
+          "LX/0tnP;",
+          "public final reportEvent(LX/0rMd;)V"
+        ],
+        [
+          "LX/0tsm;",
+          "public final FwO(LX/0qOk;Ljava/lang/String;[B)V"
+        ],
+        [
+          "Lcom/facebook/rti/push/service/FbnsServiceDelegate;",
+          "public static A03(Lcom/facebook/rti/push/service/FbnsServiceDelegate;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V"
+        ],
+        [
+          "Lcom/facebook/rti/push/service/FbnsServiceDelegate;",
+          "public static A04(Lcom/facebook/rti/push/service/FbnsServiceDelegate;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;J)V"
+        ],
+        [
+          "Lcom/facebook/rti/pushv2/service/FbnsServiceDelegateV2;",
+          "public final A0D()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/devops/DevOptionsUnlockHook.java",
+      "line": 113,
+      "kind": "method",
+      "anchors": [
+        "is_employee"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0000;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/00rm;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/07kM;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0ANj;",
+          "public final A01(Landroid/content/Context;II)LX/092A;"
+        ],
+        [
+          "LX/0ANj;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0nFF;",
+          "public final A01(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;JJZZ)V"
+        ],
+        [
+          "LX/0rRl;",
+          "public static A00(LX/0rRl;)LX/0ZVC;"
+        ],
+        [
+          "LX/0tnP;",
+          "public final reportEvent(LX/0rMd;)V"
+        ],
+        [
+          "LX/0tsm;",
+          "public final FwO(LX/0qOk;Ljava/lang/String;[B)V"
+        ],
+        [
+          "Lcom/facebook/rti/push/service/FbnsServiceDelegate;",
+          "public static A03(Lcom/facebook/rti/push/service/FbnsServiceDelegate;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;)V"
+        ],
+        [
+          "Lcom/facebook/rti/push/service/FbnsServiceDelegate;",
+          "public static A04(Lcom/facebook/rti/push/service/FbnsServiceDelegate;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;J)V"
+        ],
+        [
+          "Lcom/facebook/rti/pushv2/service/FbnsServiceDelegateV2;",
+          "public final A0D()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/feed/HideSuggestedFeedItemsHook.java",
+      "line": 70,
+      "kind": "method",
+      "anchors": [
+        "clips_netego",
+        "suggested_users",
+        "Unknown FeedItem Type"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/07aV;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/feed/HideSuggestedFeedItemsHook.java",
+      "line": 72,
+      "kind": "method",
+      "anchors": [
+        "clips_netego",
+        "media_or_ad"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0000;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/07aV;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/07aV;",
+          "public static final A00(LX/02z1;LX/07aU;)V"
+        ],
+        [
+          "LX/08WM;",
+          "public static constructor <clinit>()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/feed/HideSuggestedFeedItemsHook.java",
+      "line": 75,
+      "kind": "method",
+      "anchors": [
+        "clips_netego",
+        "stories_netego",
+        "bloks_netego"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/04os;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/07aV;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/07aV;",
+          "public static final A00(LX/02z1;LX/07aU;)V"
+        ],
+        [
+          "LX/08WM;",
+          "public static constructor <clinit>()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostDMSeenHook.java",
+      "line": 36,
+      "kind": "method",
+      "anchors": [
+        "mark_thread_seen-"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0C8x;",
+          "public static final A0A(Lcom/instagram/common/session/UserSession;LX/02lR;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostEphemeralKeepHook.java",
+      "line": 44,
+      "kind": "method",
+      "anchors": [
+        "igThreadIgid"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/02XZ;",
+          "public final A00(LX/0Eax;)V"
+        ],
+        [
+          "LX/05tj;",
+          "public final bridge synthetic Gsm(LX/02ml;LX/0Tcq;LX/02Oe;)V"
+        ],
+        [
+          "LX/0GGb;",
+          "public static final A00(LX/02z1;LX/0Eax;Z)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostEphemeralKeepHook.java",
+      "line": 72,
+      "kind": "method",
+      "anchors": [
+        "mark_ephemeral_item_ranges_viewed"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/04xa;",
+          "public static A01(LX/03Hm;LX/0Gbt;LX/0Gbt;LX/0Gbt;LX/0Gbt;LX/0Gbt;LX/04xa;[Ljava/lang/Object;)Ljava/util/List;"
+        ],
+        [
+          "LX/05ti;",
+          "public final A04()Ljava/lang/String;"
+        ],
+        [
+          "LX/05tj;",
+          "public final bridge synthetic Gsm(LX/02ml;LX/0Tcq;LX/02Oe;)V"
+        ],
+        [
+          "LX/05xd;",
+          "public final A00()Ljava/util/List;"
+        ],
+        [
+          "LX/09Sg;",
+          "public static final A00(LX/02Oe;)I"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostEphemeralKeepHook.java",
+      "line": 109,
+      "kind": "method",
+      "anchors": [
+        "message_expiration_timestamp_ms"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0018;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/003F;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/003F;",
+          "public static final A00(LX/02z1;LX/0038;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostPermanentViewHook.java",
+      "line": 59,
+      "kind": "method",
+      "anchors": [
+        "archived_media_timestamp",
+        "view_mode"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/06Oo;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06Oo;",
+          "public static final A00(LX/02z1;LX/04h5;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostScreenshotDetectionHook.java",
+      "line": 38,
+      "kind": "class",
+      "anchors": [
+        "ScreenshotNotificationManager"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/01Sn;",
+          ""
+        ],
+        [
+          "LX/03KD;",
+          ""
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostStorySeenHook.java",
+      "line": 70,
+      "kind": "method",
+      "anchors": [
+        "media/seen/"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/00hN;",
+          "public final A04(Lcom/instagram/common/session/UserSession;)LX/07rX;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostStorySeenHook.java",
+      "line": 113,
+      "kind": "method",
+      "anchors": [
+        "media/seen/"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/00hN;",
+          "public final A04(Lcom/instagram/common/session/UserSession;)LX/07rX;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostTypingIndicatorHook.java",
+      "line": 37,
+      "kind": "method",
+      "anchors": [
+        "is_typing_indicator_enabled"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/01MY;",
+          "public final A06(Z)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostViewOnceHook.java",
+      "line": 25,
+      "kind": "method",
+      "anchors": [
+        "direct_v2/visual_threads/%s/item_seen/",
+        "raven_media"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/05da;",
+          "public final bridge synthetic Gsm(LX/02ml;LX/0Tcq;LX/02Oe;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/GhostViewOnceHook.java",
+      "line": 25,
+      "kind": "method",
+      "anchors": [
+        "visual_item_seen"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/003F;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/003F;",
+          "public static final A00(LX/02z1;LX/0038;)V"
+        ],
+        [
+          "LX/02Oe;",
+          "public A04()Ljava/lang/String;"
+        ],
+        [
+          "LX/04xa;",
+          "public final Gb5()Ljava/util/List;"
+        ],
+        [
+          "LX/05k6;",
+          "public A02()Ljava/lang/String;"
+        ],
+        [
+          "LX/09Sg;",
+          "public static final A00(LX/02Oe;)I"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/HideChatsHook.java",
+      "line": 72,
+      "kind": "method",
+      "anchors": [
+        "DirectThreadStoreImpl.getSortedCopyOfThreadSummaries"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/00BW;",
+          "public final A0R(LX/00GN;LX/03Sl;Ljava/util/Comparator;Ljava/util/List;Z)Ljava/util/ArrayList;"
+        ],
+        [
+          "LX/00BW;",
+          "public final A0S(Ljava/util/List;)Ljava/util/ArrayList;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/KeepUnsentMessagesHook.java",
+      "line": 98,
+      "kind": "method",
+      "anchors": [
+        "igThreadIgid"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/02XZ;",
+          "public final A00(LX/0Eax;)V"
+        ],
+        [
+          "LX/05tj;",
+          "public final bridge synthetic Gsm(LX/02ml;LX/0Tcq;LX/02Oe;)V"
+        ],
+        [
+          "LX/0GGb;",
+          "public static final A00(LX/02z1;LX/0Eax;Z)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/KeepUnsentMessagesHook.java",
+      "line": 240,
+      "status": "INDIRECT_QUERY_MANUAL_REVIEW",
+      "candidates": null
+    },
+    {
+      "file": "mods/ghost/KeepUnsentMessagesHook.java",
+      "line": 375,
+      "kind": "method",
+      "anchors": [
+        " is not in cache, may need to double check if this message is deleted locally or not"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/04k3;",
+          "public static final declared-synchronized A0D(LX/04k3;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ghost/ViewOnceBadgeHook.java",
+      "line": 39,
+      "kind": "method",
+      "anchors": [
+        "once",
+        "replayable"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0038;",
+          "public final A1v()Z"
+        ],
+        [
+          "LX/0219;",
+          "public final A00(LX/0BuP;Lcom/instagram/model/direct/DirectShareTarget;Lcom/instagram/model/direct/camera/DirectCameraViewModel;LX/0GxR;Ljava/lang/Integer;Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/02Fw;",
+          "public final A0A(LX/0FvA;LX/0GxR;Ljava/lang/Long;Ljava/util/List;ZZ)V"
+        ],
+        [
+          "LX/02Xw;",
+          "public final A0K(Lcom/instagram/model/direct/DirectThreadKey;LX/0GxR;LX/09fn;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;"
+        ],
+        [
+          "LX/04Gy;",
+          "public final bridge synthetic AWM(LX/0Jim;LX/0KaH;)V"
+        ],
+        [
+          "LX/04LK;",
+          "public static final A00(Ljava/lang/String;)LX/0CAa;"
+        ],
+        [
+          "LX/0BIZ;",
+          "public final A00(Lcom/instagram/common/session/UserSession;LX/01JH;LX/0038;)I"
+        ],
+        [
+          "LX/0Ckg;",
+          "public final A04(Landroid/content/res/Resources;Z)Lcom/instagram/direct/wellbeing/harmfulcontent/ondevicenudity/view/data/PrivacyMediaOverlayViewModel;"
+        ],
+        [
+          "LX/0D0w;",
+          "public constructor <init>(LX/04ME;LX/04LZ;LX/0D13;Lcom/instagram/direct/thread/analytics/DirectThreadAnalyticsParams;LX/0Cay;Lcom/instagram/direct/wellbeing/harmfulcontent/ondevicenudity/view/data/PrivacyMediaOverlayViewModel;Ljava/lang/String;Ljava/lang/String;ZZZZZ)V"
+        ],
+        [
+          "LX/0EHt;",
+          "public static final A02(Lcom/instagram/common/session/UserSession;LX/08qe;LX/09fn;Ljava/lang/String;)LX/0EIq;"
+        ],
+        [
+          "LX/0KGn;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0OE9;",
+          "public final onStart()V"
+        ],
+        [
+          "LX/0OE9;",
+          "public final onStop()V"
+        ],
+        [
+          "LX/0Ths;",
+          "public static final A00(LX/0aEk;LX/0aWn;Ljava/lang/String;I)V"
+        ],
+        [
+          "LX/0UnX;",
+          "public final F9K()V"
+        ],
+        [
+          "LX/0c8z;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/direct/wellbeing/harmfulcontent/ondevicenudity/inference/store/data/InferenceMediaLifetime;",
+          "public static final A00(Ljava/lang/String;)I"
+        ],
+        [
+          "Linstagram/features/direct/visual/internal/DirectVisualMessageViewerController;",
+          "public static final A0Z(LX/0b5s;)Z"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/FeedVideoDownloadHook.java",
+      "line": 1215,
+      "kind": "class",
+      "anchors": [
+        "video_to_carousel_cut_info"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/06aG;",
+          ""
+        ],
+        [
+          "LX/07jd;",
+          ""
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          ""
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/FeedVideoDownloadHook.java",
+      "line": 1267,
+      "kind": "method",
+      "anchors": [
+        "video_versions"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0000;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/013P;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/013P;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/ClipsTemplatesReusableMediaAssetInfo;)V"
+        ],
+        [
+          "LX/019b;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/019c;",
+          "public final A00(LX/02ak;)Lcom/facebook/pando/TreeUpdaterJNI;"
+        ],
+        [
+          "LX/03TQ;",
+          "public final declared-synchronized A00(Lcom/instagram/api/schemas/JourneyAwareMediaInfo;LX/011g;LX/06WT;)Z"
+        ],
+        [
+          "LX/05Be;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/05Be;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/AudioExampleMediaImpl;)V"
+        ],
+        [
+          "LX/06aG;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06aG;",
+          "public static A0H(LX/02z1;LX/07jd;I)V"
+        ],
+        [
+          "LX/07jd;",
+          "public final A05(LX/02ak;[I)Ljava/util/Map;"
+        ],
+        [
+          "LX/07jd;",
+          "public static A02(Ljava/util/AbstractMap;LX/07jd;LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0ALx;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0Ccs;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Ccs;",
+          "public static final A00(LX/02z1;Lcom/instagram/model/upcomingeventsmetadata/UpcomingEventMediaImpl;)V"
+        ],
+        [
+          "LX/0T2g;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/ThemeBackgroundAsset;)V"
+        ],
+        [
+          "LX/0TSI;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0TTq;",
+          "public static A01(Lcom/instagram/api/schemas/ThemeVideoBackgroundIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0bQP;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0bRP;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0bRP;",
+          "public static final A00(LX/02z1;Lcom/instagram/reels/questionv2/model/QuestionMediaResponseModel;)V"
+        ],
+        [
+          "LX/0cSO;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0cTj;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0ckI;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/JourneyAwareMediaInfoImpl;)V"
+        ],
+        [
+          "LX/0clE;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/NotePogVideoResponseInfo;)V"
+        ],
+        [
+          "LX/0cn7;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0cn7;",
+          "public static final A00(LX/02z1;LX/0br4;)V"
+        ],
+        [
+          "LX/0jnu;",
+          "public static A01(LX/02ak;LX/0ttl;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0jpy;",
+          "public static A01(Lcom/instagram/reels/questionv2/model/QuestionMediaResponseModelIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kSL;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/AudioExampleMedia;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kVz;",
+          "public static A01(Lcom/instagram/api/schemas/JourneyAwareVideo;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kXM;",
+          "public static A01(Lcom/instagram/api/schemas/NotePogVideoDictIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kXp;",
+          "public static A01(LX/0qxo;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kc7;",
+          "public static A01(LX/0qyN;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0lIu;",
+          "public static A02(Lcom/instagram/model/upcomingeventsmetadata/UpcomingEventMedia;)Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/api/schemas/ClipsTemplatesReusableMediaAssetInfo;",
+          "public final synthetic HdC()Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/api/schemas/ImmutablePandoClipsTemplatesReusableMediaAssetInfo;",
+          "public final synthetic HdC()Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final AAk()Ljava/util/List;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final ALN(Ljava/util/List;)V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public static constructor <clinit>()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/FeedVideoDownloadHook.java",
+      "line": 1319,
+      "kind": "method",
+      "anchors": [
+        "carousel_media"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/06aG;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06aG;",
+          "public static A0H(LX/02z1;LX/07jd;I)V"
+        ],
+        [
+          "LX/07jd;",
+          "public final A04(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/07jd;",
+          "public final A05(LX/02ak;[I)Ljava/util/Map;"
+        ],
+        [
+          "LX/0ALx;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final A8n()Ljava/util/List;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final AJQ(Ljava/util/List;)V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public static constructor <clinit>()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/FeedVideoDownloadHook.java",
+      "line": 1350,
+      "kind": "method",
+      "anchors": [
+        "asl_session_id",
+        "is_video",
+        "is_carousel"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/03Lz;",
+          "public final HZJ(Lcom/instagram/feed/media/Media;Ljava/lang/Integer;Ljava/lang/String;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/FeedVideoDownloadHook.java",
+      "line": 1393,
+      "kind": "method",
+      "anchors": [
+        "username_missing_during_update"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "Lcom/instagram/user/model/User;",
+          "public static final A02(LX/06c1;Lcom/instagram/user/model/User;Ljava/util/List;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/FeedVideoDownloadHook.java",
+      "line": 1499,
+      "kind": "method",
+      "anchors": [
+        "user"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/00T4;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/00T4;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/MediaNoteResponse;)V"
+        ],
+        [
+          "LX/00T5;",
+          "public static A02(LX/02ak;Lcom/instagram/api/schemas/MediaNoteResponseIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/00bm;",
+          "public static A00()V"
+        ],
+        [
+          "LX/00cS;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/00cS;",
+          "public static A00(LX/02z1;Lcom/instagram/model/reels/ReelResponseItem;)V"
+        ],
+        [
+          "LX/00vi;",
+          "public constructor <init>(Landroid/content/Context;Ljava/io/File;I)V"
+        ],
+        [
+          "LX/016G;",
+          "public final A05(Landroid/app/Activity;Landroid/content/Intent;Lcom/instagram/common/session/UserSession;LX/0FbC;)LX/017n;"
+        ],
+        [
+          "LX/016G;",
+          "public final A07(Landroid/net/Uri;)LX/03GG;"
+        ],
+        [
+          "LX/016G;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/01Bf;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/01Bf;",
+          "public static final A00(LX/02z1;Lcom/instagram/direct/inbox/notes/models/domain/NoteEmojiReaction;)V"
+        ],
+        [
+          "LX/01EX;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "LX/01LZ;",
+          "public static final A05(LX/02ml;Lcom/instagram/common/session/UserSession;Lcom/instagram/profile/intf/UserDetailEntryInfo;Lcom/instagram/search/common/analytics/SearchContext;LX/05eE;LX/0ANT;LX/056r;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01Vc;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/01Vc;",
+          "public static final A00(LX/02z1;LX/01WL;)V"
+        ],
+        [
+          "LX/01YC;",
+          "public final A03(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0248;",
+          "public static A1M(LX/02ak;Lcom/instagram/user/model/User;Ljava/util/AbstractMap;)V"
+        ],
+        [
+          "LX/0295;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/02Aq;",
+          "public static final A00(LX/02z1;LX/049A;)V"
+        ],
+        [
+          "LX/02LU;",
+          "public static A02(LX/02ak;LX/05Bi;)Ljava/util/Map;"
+        ],
+        [
+          "LX/02Q7;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/02Q7;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/NoteEmojiReactionInfo;)V"
+        ],
+        [
+          "LX/02aq;",
+          "public final init()V"
+        ],
+        [
+          "LX/02au;",
+          "public final init()V"
+        ],
+        [
+          "LX/02dA;",
+          "public final A03()Lcom/instagram/user/model/User;"
+        ],
+        [
+          "LX/02xp;",
+          "public static A01(Ljava/lang/Integer;)Ljava/lang/String;"
+        ],
+        [
+          "LX/030m;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/030m;",
+          "public static final A00(LX/02z1;LX/05LP;)V"
+        ],
+        [
+          "LX/0329;",
+          "public static A01(ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0388;",
+          "public final bridge synthetic AMh(Ljava/lang/Object;)Z"
+        ],
+        [
+          "LX/0388;",
+          "public final bridge synthetic FOY(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/03N9;",
+          "public constructor <init>(Landroid/content/Context;)V"
+        ],
+        [
+          "LX/03TQ;",
+          "public final declared-synchronized A00(Lcom/instagram/api/schemas/JourneyAwareMediaInfo;LX/011g;LX/06WT;)Z"
+        ],
+        [
+          "LX/0531;",
+          "public static A0H(Ljava/lang/Object;Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0531;",
+          "public static A0V(Ljava/lang/Object;Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/056a;",
+          "public static A06(LX/0A0W;LX/056a;Ljava/util/List;I)V"
+        ],
+        [
+          "LX/057o;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/05Be;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/05Be;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/AudioExampleMediaImpl;)V"
+        ],
+        [
+          "LX/05Cd;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/05Cd;",
+          "public static final A00(LX/02z1;LX/05Wi;)V"
+        ],
+        [
+          "LX/05iL;",
+          "public static A02(LX/02ak;Lcom/instagram/model/reels/ReelResponseItemIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/06Eg;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06Eg;",
+          "public static final A00(LX/02z1;LX/06SF;)V"
+        ],
+        [
+          "LX/06QK;",
+          "public final run()V"
+        ],
+        [
+          "LX/06SG;",
+          "public static A01(LX/02ak;LX/0MhH;)Ljava/util/Map;"
+        ],
+        [
+          "LX/06aG;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06aG;",
+          "public static final A0L(LX/02z1;LX/07jd;I)V"
+        ],
+        [
+          "LX/06aZ;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06aZ;",
+          "public static final A00(LX/02z1;LX/06ci;)V"
+        ],
+        [
+          "LX/06eL;",
+          "public static final A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/0749;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0788;",
+          "public final B7C(Lcom/instagram/common/session/UserSession;Ljava/lang/String;)Ljava/util/ArrayList;"
+        ],
+        [
+          "LX/0788;",
+          "public final GtE(Lcom/instagram/common/session/UserSession;Ljava/util/List;)Ljava/lang/String;"
+        ],
+        [
+          "LX/07Ea;",
+          "public static A03(ILX/062D;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/07We;",
+          "public final EGe(LX/02ec;)V"
+        ],
+        [
+          "LX/07jd;",
+          "public final A05(LX/02ak;[I)Ljava/util/Map;"
+        ],
+        [
+          "LX/07jd;",
+          "public static A02(Ljava/util/AbstractMap;LX/07jd;LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/07qQ;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/07qQ;",
+          "public static final A00(LX/02z1;LX/07qT;)V"
+        ],
+        [
+          "LX/07qX;",
+          "public static A01(LX/02ak;LX/09Ev;)Ljava/util/Map;"
+        ],
+        [
+          "LX/07xA;",
+          "public static A02(LX/02ak;LX/02Kx;)Ljava/util/Map;"
+        ],
+        [
+          "LX/08HG;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/08HG;",
+          "public static final A00(LX/02z1;Lcom/instagram/reels/interactive/Interactive;)V"
+        ],
+        [
+          "LX/08Mj;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/08W3;",
+          "public final synthetic HdD(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/08Xu;",
+          "public static final A00(LX/02z1;LX/08Xx;)V"
+        ],
+        [
+          "LX/08Z6;",
+          "public static final A00(LX/08M2;Lcom/instagram/common/session/UserSession;Ljava/lang/String;)LX/091x;"
+        ],
+        [
+          "LX/08vz;",
+          "public final FzM(IILjava/lang/String;Ljava/util/Map;)V"
+        ],
+        [
+          "LX/08w7;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/08w7;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/OriginalitySourceMediaInfoImpl;)V"
+        ],
+        [
+          "LX/08wO;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/OriginalitySourceMediaInfo;)Ljava/util/Map;"
+        ],
+        [
+          "LX/092C;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/094e;",
+          "public static final A0U(Lcom/instagram/common/session/UserSession;LX/0AJX;LX/0Tsu;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/094m;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/094m;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/SuggestedUserDict;)V"
+        ],
+        [
+          "LX/0962;",
+          "public final EGe(LX/02ec;)V"
+        ],
+        [
+          "LX/096B;",
+          "public final A0B(Ljava/lang/Boolean;)V"
+        ],
+        [
+          "LX/096B;",
+          "public final A0C(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/096B;",
+          "public final A0D(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/09TO;",
+          "public static final A04(LX/031I;LX/02ml;Lcom/instagram/common/session/UserSession;Lcom/instagram/feed/media/Media;LX/072o;II)V"
+        ],
+        [
+          "LX/09kq;",
+          "public static final A00(LX/02z1;LX/09kx;)V"
+        ],
+        [
+          "LX/09ks;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/09lw;",
+          "public static A01(LX/0Hbn;)Ljava/util/Map;"
+        ],
+        [
+          "LX/09mv;",
+          "public static final A00(LX/02z1;LX/09mx;)V"
+        ],
+        [
+          "LX/09mw;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/09my;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/UserTagInfoDictIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0ABH;",
+          "public static A01(LX/02ak;Lcom/instagram/user/model/XDTTextAppCommunityEmojiUpdateAttachmentInfo;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0ALx;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0AOG;",
+          "public final E3k(LX/049t;Ljava/lang/String;Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/0ApE;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Ate;",
+          "public final bridge synthetic AMh(Ljava/lang/Object;)Z"
+        ],
+        [
+          "LX/0Ate;",
+          "public final bridge synthetic FOY(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0AvI;",
+          "public static A01(ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Azy;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Azz;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0B0M;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0B1k;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0B1k;",
+          "public static final A00(LX/02z1;Lcom/instagram/model/direct/gifs/DirectAnimatedMedia;Z)V"
+        ],
+        [
+          "LX/0B1m;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0B1m;",
+          "public static final A00(LX/02z1;Lcom/instagram/model/people/PeopleTag;)V"
+        ],
+        [
+          "LX/0BAQ;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0BFs;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0BGq;",
+          "public static A01(LX/02ak;LX/0NeC;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0BQd;",
+          "public final invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0BSX;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0BYT;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0BZa;",
+          "public final declared-synchronized G3L(Landroid/view/View;LX/0C1y;LX/0GGM;I)V"
+        ],
+        [
+          "LX/0Bmw;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Bmw;",
+          "public static final A00(LX/02z1;LX/0OgP;Z)V"
+        ],
+        [
+          "LX/0CE0;",
+          "public static final A01(LX/02z1;LX/0NEE;)V"
+        ],
+        [
+          "LX/0CZ6;",
+          "public final A09()LX/0D1H;"
+        ],
+        [
+          "LX/0CeH;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0CuS;",
+          "public static final A00(Ljava/lang/Class;)LX/0CuT;"
+        ],
+        [
+          "LX/0D4e;",
+          "public final bridge synthetic A0s(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0DFY;",
+          "public final bridge synthetic A0r(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0DOq;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0DOq;",
+          "public static final A00(LX/0DOq;)Ljava/util/ArrayList;"
+        ],
+        [
+          "LX/0DbT;",
+          "private final A00(Lcom/instagram/profile/bindergroup/AccountLinkModel;)I"
+        ],
+        [
+          "LX/0DbT;",
+          "private final A05(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0DbT;",
+          "private final A0H()Z"
+        ],
+        [
+          "LX/0DbT;",
+          "public final Adi(LX/00dC;)V"
+        ],
+        [
+          "LX/0DbT;",
+          "public static final A02(LX/0DbT;)Ljava/util/List;"
+        ],
+        [
+          "LX/0DbT;",
+          "public static final A07(Lcom/instagram/profile/bindergroup/AccountLinkModel;LX/0DbT;)V"
+        ],
+        [
+          "LX/0DvQ;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0DvQ;",
+          "public static final A00(LX/02z1;LX/0Khq;Z)V"
+        ],
+        [
+          "LX/0EnH;",
+          "public static final A02(LX/0EnH;)V"
+        ],
+        [
+          "LX/0EpR;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Eq5;",
+          "public final onCheckedChanged(Landroid/widget/CompoundButton;Z)V"
+        ],
+        [
+          "LX/0Ewn;",
+          "public final A00(Landroid/content/Context;Lcom/instagram/common/session/UserSession;Lcom/instagram/feed/media/Media;LX/0AJX;LX/04Wz;LX/05zZ;LX/0UuB;Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/0Ewu;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Ewu;",
+          "public static final A00(LX/02z1;LX/0Ewx;)V"
+        ],
+        [
+          "LX/0F4I;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0FDB;",
+          "public static final A02(LX/0FDB;)V"
+        ],
+        [
+          "LX/0FHK;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/NoteEmojiReactionInfoIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0FXZ;",
+          "public final bridge synthetic A0r(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0Fnh;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Fwa;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Fwe;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0G71;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0G9S;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0G9S;",
+          "public static final A00(LX/02z1;Lcom/instagram/model/keyword/Keyword;)V"
+        ],
+        [
+          "LX/0GCT;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GD6;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GDS;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GDu;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GEB;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GFB;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GFC;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GFe;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GFu;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GG3;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GG4;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GG5;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GGD;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/LoginDeferredAccountListImpl;)V"
+        ],
+        [
+          "LX/0GJ6;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GUV;",
+          "public final synthetic HdD(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0GsD;",
+          "public final synthetic HdD(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0GvO;",
+          "public final EyN()V"
+        ],
+        [
+          "LX/0H3h;",
+          "public final A0C(LX/0D1H;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)V"
+        ],
+        [
+          "LX/0H71;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "LX/0HhD;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0HhD;",
+          "public static final A00(LX/02z1;LX/0HJq;)V"
+        ],
+        [
+          "LX/0HsB;",
+          "public static final A01(LX/0HsB;)V"
+        ],
+        [
+          "LX/0Hsa;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0Hsa;",
+          "public static final A01(Landroid/view/View;LX/0MZ2;LX/0Hsa;LX/0EMF;)V"
+        ],
+        [
+          "LX/0Hvd;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "LX/0I5e;",
+          "public final A00(Lcom/instagram/common/session/UserSession;Ljava/lang/String;Ljava/lang/String;I)V"
+        ],
+        [
+          "LX/0Ib2;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Ibi;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Ipx;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Iru;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Iru;",
+          "public static final A00(LX/02z1;Lcom/instagram/model/reels/SuggestedUserTypedDict;)V"
+        ],
+        [
+          "LX/0JNH;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JPC;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JQ9;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JQB;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JQD;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JS4;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JSY;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JX8;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JX9;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JXD;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JXR;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JXS;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Jo3;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Jr3;",
+          "public final Hdg(LX/02ak;)Lcom/facebook/pando/TreeUpdaterJNI;"
+        ],
+        [
+          "LX/0Jr3;",
+          "public final synthetic HdD(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0K2J;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0K2J;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/InterestRecommendationImpl;)V"
+        ],
+        [
+          "LX/0K2L;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0K2L;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/NuxMediaResponse;)V"
+        ],
+        [
+          "LX/0K2y;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0K2y;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/ShoppingBrandWithProductsImpl;)V"
+        ],
+        [
+          "LX/0K3J;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0K3J;",
+          "public static final A00(LX/02z1;LX/0GWV;)V"
+        ],
+        [
+          "LX/0K3i;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0K3i;",
+          "public static final A00(LX/02z1;Lcom/instagram/model/direct/DirectPendingLayeredXma;Z)V"
+        ],
+        [
+          "LX/0K5A;",
+          "public static final A00(LX/02z1;LX/0Rif;)V"
+        ],
+        [
+          "LX/0KHI;",
+          "public final A02(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0KKa;",
+          "public static A00(LX/0NeW;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0Khq;",
+          "public final synthetic HdD(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0L3r;",
+          "public final Fah()V"
+        ],
+        [
+          "LX/0LFC;",
+          "public static A01(LX/02ak;LX/0NdZ;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0LHs;",
+          "public static A01(LX/02ak;LX/0Pmt;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0LIQ;",
+          "public static A01(LX/02ak;LX/0Pmu;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0LJJ;",
+          "public static A01(LX/02ak;LX/0PnA;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0LJO;",
+          "public static A01(LX/02ak;LX/0Pob;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0LVV;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0Lek;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/SuggestedUserDictIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0Leq;",
+          "public static A01(LX/02ak;Lcom/instagram/model/reels/SuggestedUserTypedDictIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0M1c;",
+          "public final A01(LX/031I;Lcom/instagram/common/session/UserSession;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)V"
+        ],
+        [
+          "LX/0M7J;",
+          "public static final A03(LX/0M7J;)V"
+        ],
+        [
+          "LX/0M7j;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0M9M;",
+          "public final GDb(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0MED;",
+          "public final bridge synthetic EGY(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0MMU;",
+          "public final onClick(Landroid/content/DialogInterface;I)V"
+        ],
+        [
+          "LX/0MV8;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0MXD;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0MXG;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0MXO;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0N5D;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0NTI;",
+          "public final A00(LX/0Bj9;LX/0GGM;Lcom/instagram/newsfeed/ui/InlineLinkUrn;I)Z"
+        ],
+        [
+          "LX/0NvJ;",
+          "public static final A00(LX/0Tgm;Ljava/lang/String;)Ljava/lang/String;"
+        ],
+        [
+          "LX/0O5C;",
+          "private final A0V(Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/0OU9;",
+          "public final A00(LX/0Ecy;)Lcom/instagram/user/model/User;"
+        ],
+        [
+          "LX/0OXM;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0OXM;",
+          "public static final A00(LX/02z1;Lcom/instagram/feed/media/QuestionResponseModel;)V"
+        ],
+        [
+          "LX/0OlI;",
+          "public final A03(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0OmR;",
+          "public static A01(LX/02ak;LX/0Tcx;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0OoL;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/ShoppingBrandWithProducts;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0OoR;",
+          "public static A01(LX/02ak;LX/0Tcv;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0Orl;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0P22;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0P9t;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0P9u;",
+          "public final synthetic HdD(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0PMH;",
+          "public static final A00(LX/0PMH;Z)V"
+        ],
+        [
+          "LX/0PMJ;",
+          "public static final A00(LX/0PMJ;)V"
+        ],
+        [
+          "LX/0PNL;",
+          "public static final A00(LX/0PNL;)V"
+        ],
+        [
+          "LX/0PQC;",
+          "public static final A00(LX/0N2R;LX/0PQC;Z)LX/0M2o;"
+        ],
+        [
+          "LX/0Pds;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0PeQ;",
+          "public final onClick(Landroid/content/DialogInterface;I)V"
+        ],
+        [
+          "LX/0PhQ;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0PiE;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0PiF;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0PiJ;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0PjI;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0PmO;",
+          "public final EGe(LX/02ec;)V"
+        ],
+        [
+          "LX/0PpF;",
+          "public final Bme(Landroid/content/Context;)LX/04t5;"
+        ],
+        [
+          "LX/0Qlf;",
+          "public final F9K()V"
+        ],
+        [
+          "LX/0Quc;",
+          "public final G3L(Landroid/view/View;LX/0C1y;LX/0GGM;I)V"
+        ],
+        [
+          "LX/0R6n;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0RFR;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0RFR;",
+          "public static final A00(LX/02z1;LX/0WRi;)V"
+        ],
+        [
+          "LX/0RZC;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0S0V;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0S1t;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0S3K;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0SI5;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0SKH;",
+          "public static final A02(LX/01sc;)Z"
+        ],
+        [
+          "LX/0SUM;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0SUf;",
+          "public constructor <init>(Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/0SZL;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Scy;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Sj9;",
+          "public static A01(LX/02ak;Lcom/instagram/feed/media/QuestionResponseModelIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0Sn4;",
+          "public static final A00(LX/02z1;LX/0RUq;)V"
+        ],
+        [
+          "LX/0TMn;",
+          "public final GlU(Lcom/instagram/common/session/UserSession;I)V"
+        ],
+        [
+          "LX/0Tnv;",
+          "public static final A01(LX/0aWn;LX/0Fvf;I)V"
+        ],
+        [
+          "LX/0Tnv;",
+          "public static final A02(LX/0aWn;LX/0Fvf;I)V"
+        ],
+        [
+          "LX/0Tnv;",
+          "public static final A03(LX/0aWn;LX/0IV6;I)V"
+        ],
+        [
+          "LX/0UIc;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0UJj;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0Vv9;",
+          "public static final A00(LX/0Vv9;Ljava/lang/String;LX/0haL;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Vw1;",
+          "public static A00(Ljava/lang/Integer;)Ljava/lang/String;"
+        ],
+        [
+          "LX/0WYm;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0Wf8;",
+          "public final A01()V"
+        ],
+        [
+          "LX/0XHK;",
+          "public final A00()V"
+        ],
+        [
+          "LX/0XHK;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/0XhF;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Xoe;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Xpc;",
+          "public static final A02(LX/06zb;LX/0Xpc;Z)V"
+        ],
+        [
+          "LX/0XqH;",
+          "public final A15(Landroid/content/Context;LX/0a8y;)V"
+        ],
+        [
+          "LX/0XqM;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0XvL;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YUj;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YVB;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YVO;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YWB;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YWJ;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YWZ;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YWj;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YXB;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YXj;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Yq3;",
+          "public static final A00(LX/02z1;LX/0X0y;)V"
+        ],
+        [
+          "LX/0Yq6;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Yq6;",
+          "public static final A00(LX/02z1;LX/0X1l;)V"
+        ],
+        [
+          "LX/0aRT;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0bQP;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0bQQ;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0cgc;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0cpA;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/MusicRecInfoImpl;)V"
+        ],
+        [
+          "LX/0dGZ;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0dao;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0dzN;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0eGF;",
+          "public static A00(LX/02ak;LX/0nO3;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0eqk;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0fi2;",
+          "public static A01(LX/02ak;LX/0nev;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0foL;",
+          "public static A01(LX/02ak;LX/0nez;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0hLn;",
+          "public final A08(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0hiq;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0hmi;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0hmj;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0iKP;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0iKR;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0iLV;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0jEO;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0jnt;",
+          "public static A01(LX/02ak;LX/0ttn;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0jnu;",
+          "public static A01(LX/02ak;LX/0ttl;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kSL;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/AudioExampleMedia;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kWp;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/NoteMusicRec;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kba;",
+          "public final toJson()Ljava/lang/String;"
+        ],
+        [
+          "LX/0kin;",
+          "public final FwF(LX/0Tcn;Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/0kj7;",
+          "public final A01()LX/0fSO;"
+        ],
+        [
+          "LX/0luW;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0lxY;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0mhq;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0mnP;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0pXl;",
+          "public final A0A(Ljava/lang/String;J)V"
+        ],
+        [
+          "LX/0pgX;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0qdx;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0qii;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0rA0;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0rUk;",
+          "public final varargs A04(Ljava/lang/String;[Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0rUk;",
+          "public final varargs A05(Ljava/lang/String;[Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0rbj;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0rbl;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "Lcom/facebook/cameracore/mediapipeline/services/analyticslogger/implementation/AnalyticsLoggerImpl;",
+          "public getEffectStartIntentString()Ljava/lang/String;"
+        ],
+        [
+          "Lcom/facebook/wearable/mediastream/sessionx/data/models/device/BuildFlavor$Companion;",
+          "public final toString(I)Ljava/lang/String;"
+        ],
+        [
+          "Lcom/google/android/gms/auth/api/signin/internal/zbt;",
+          "private final A01()V"
+        ],
+        [
+          "Lcom/google/android/gms/fido/fido2/api/common/PublicKeyCredentialCreationOptions;",
+          "public constructor <init>(Landroid/os/ResultReceiver;Lcom/google/android/gms/fido/fido2/api/common/AuthenticationExtensions;Lcom/google/android/gms/fido/fido2/api/common/AuthenticatorSelectionCriteria;Lcom/google/android/gms/fido/fido2/api/common/PublicKeyCredentialRpEntity;Lcom/google/android/gms/fido/fido2/api/common/PublicKeyCredentialUserEntity;Lcom/google/android/gms/fido/fido2/api/common/TokenBinding;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/List;[B)V"
+        ],
+        [
+          "Lcom/instagram/api/schemas/IGTVShareImpl;",
+          "public final synthetic HdD(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/api/schemas/KeywordDictImpl;",
+          "public final synthetic HdD(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/api/schemas/LoginDeferredAccountImpl;",
+          "public final synthetic HdC()Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/bugreporter/BugReportComposerFragment;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final A3R()Lcom/instagram/user/model/User;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final AE3(Lcom/instagram/user/model/User;)V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "Lcom/instagram/mainactivity/InstagramMainActivity;",
+          "public final E1C(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "Lcom/instagram/profile/fragment/EditFeaturedFragment;",
+          "public final A0E(Lcom/instagram/common/session/UserSession;LX/0haL;Z)Ljava/lang/Object;"
+        ],
+        [
+          "Lcom/instagram/profile/fragment/EditFeaturedFragment;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/profile/fragment/EditFeaturedFragment;",
+          "public final onResume()V"
+        ],
+        [
+          "Lcom/instagram/profile/fragment/EditFeaturedFragment;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/profile/fragment/EditFeaturedFragment;",
+          "public static final A04(Lcom/instagram/profile/fragment/EditFeaturedFragment;)V"
+        ],
+        [
+          "Lcom/instagram/projects/domain/coach/AICoachViewModel;",
+          "public static final A01(LX/0fkJ;Lcom/instagram/projects/domain/coach/AICoachViewModel;LX/04Ld;LX/0haL;)Ljava/lang/Object;"
+        ],
+        [
+          "Lcom/instagram/projects/domain/coach/AICoachViewModel;",
+          "public static final A0C(Lcom/instagram/projects/domain/coach/AICoachViewModel;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "Lcom/instagram/tagging/activity/PeopleTagListFragment;",
+          "public final GOj(LX/031I;Lcom/instagram/user/model/User;I)V"
+        ],
+        [
+          "Lcom/instagram/urlhandler/WebAndUserExternalUrlHandler;",
+          "public final AYU(LX/01sc;Ljava/lang/String;)Landroid/os/Bundle;"
+        ],
+        [
+          "Lcom/instagram/urlhandler/WebAndUserExternalUrlHandler;",
+          "public final DzA(Landroid/os/Bundle;Landroidx/fragment/app/FragmentActivity;LX/01sc;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/ForceReelQualityHook.java",
+      "line": 78,
+      "kind": "method",
+      "anchors": [
+        "video_versions"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0000;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/013P;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/013P;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/ClipsTemplatesReusableMediaAssetInfo;)V"
+        ],
+        [
+          "LX/019b;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/019c;",
+          "public final A00(LX/02ak;)Lcom/facebook/pando/TreeUpdaterJNI;"
+        ],
+        [
+          "LX/03TQ;",
+          "public final declared-synchronized A00(Lcom/instagram/api/schemas/JourneyAwareMediaInfo;LX/011g;LX/06WT;)Z"
+        ],
+        [
+          "LX/05Be;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/05Be;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/AudioExampleMediaImpl;)V"
+        ],
+        [
+          "LX/06aG;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06aG;",
+          "public static A0H(LX/02z1;LX/07jd;I)V"
+        ],
+        [
+          "LX/07jd;",
+          "public final A05(LX/02ak;[I)Ljava/util/Map;"
+        ],
+        [
+          "LX/07jd;",
+          "public static A02(Ljava/util/AbstractMap;LX/07jd;LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0ALx;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0Ccs;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Ccs;",
+          "public static final A00(LX/02z1;Lcom/instagram/model/upcomingeventsmetadata/UpcomingEventMediaImpl;)V"
+        ],
+        [
+          "LX/0T2g;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/ThemeBackgroundAsset;)V"
+        ],
+        [
+          "LX/0TSI;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0TTq;",
+          "public static A01(Lcom/instagram/api/schemas/ThemeVideoBackgroundIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0bQP;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0bRP;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0bRP;",
+          "public static final A00(LX/02z1;Lcom/instagram/reels/questionv2/model/QuestionMediaResponseModel;)V"
+        ],
+        [
+          "LX/0cSO;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0cTj;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0ckI;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/JourneyAwareMediaInfoImpl;)V"
+        ],
+        [
+          "LX/0clE;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/NotePogVideoResponseInfo;)V"
+        ],
+        [
+          "LX/0cn7;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0cn7;",
+          "public static final A00(LX/02z1;LX/0br4;)V"
+        ],
+        [
+          "LX/0jnu;",
+          "public static A01(LX/02ak;LX/0ttl;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0jpy;",
+          "public static A01(Lcom/instagram/reels/questionv2/model/QuestionMediaResponseModelIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kSL;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/AudioExampleMedia;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kVz;",
+          "public static A01(Lcom/instagram/api/schemas/JourneyAwareVideo;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kXM;",
+          "public static A01(Lcom/instagram/api/schemas/NotePogVideoDictIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kXp;",
+          "public static A01(LX/0qxo;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0kc7;",
+          "public static A01(LX/0qyN;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0lIu;",
+          "public static A02(Lcom/instagram/model/upcomingeventsmetadata/UpcomingEventMedia;)Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/api/schemas/ClipsTemplatesReusableMediaAssetInfo;",
+          "public final synthetic HdC()Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/api/schemas/ImmutablePandoClipsTemplatesReusableMediaAssetInfo;",
+          "public final synthetic HdC()Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final AAk()Ljava/util/List;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final ALN(Ljava/util/List;)V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public static constructor <clinit>()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/PostDownloadContextMenuHook.java",
+      "line": 144,
+      "kind": "class",
+      "anchors": [
+        "MediaOptionsOverflowMenuCreator"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0YUl;",
+          ""
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/ReelDownloadHook.java",
+      "line": 69,
+      "kind": "method",
+      "anchors": [
+        "ClipsOrganicMediaItemViewMoreOptionsController"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/036a;",
+          "public final onDestroyView()V"
+        ],
+        [
+          "LX/054x;",
+          "public final E5D(LX/011g;LX/05Hv;)V"
+        ],
+        [
+          "LX/055l;",
+          "private final A03(LX/011g;Lcom/instagram/feed/media/Media;)Ljava/util/ArrayList;"
+        ],
+        [
+          "LX/055l;",
+          "private final A0B(Lcom/instagram/feed/media/mediaoption/MediaOption$Option;LX/0O44;)V"
+        ],
+        [
+          "LX/055l;",
+          "private final A0C(Lcom/instagram/feed/media/mediaoption/MediaOption$Option;LX/0O44;)V"
+        ],
+        [
+          "LX/055l;",
+          "private final A0D(LX/0G29;LX/0KbC;)V"
+        ],
+        [
+          "LX/055l;",
+          "private final A0E(LX/0G29;LX/0KbC;LX/0JxQ;)V"
+        ],
+        [
+          "LX/055l;",
+          "private final A0F(LX/0G29;LX/0KbC;LX/0QXD;Ljava/lang/Integer;)V"
+        ],
+        [
+          "LX/055l;",
+          "private final A0G(LX/0G29;LX/0KbC;Z)V"
+        ],
+        [
+          "LX/055l;",
+          "private final A0H(LX/0G29;LX/0JxY;Ljava/util/List;)V"
+        ],
+        [
+          "LX/055l;",
+          "private final A0P(LX/011g;Lcom/instagram/common/session/UserSession;)Z"
+        ],
+        [
+          "LX/055l;",
+          "private final A0V(Lcom/instagram/feed/media/Media;)Z"
+        ],
+        [
+          "LX/055l;",
+          "public final A0Y(Landroid/view/View;LX/011g;LX/05Hv;)V"
+        ],
+        [
+          "LX/055l;",
+          "public static A0A(LX/0A0W;LX/0G29;LX/055l;)V"
+        ],
+        [
+          "LX/055l;",
+          "public static A0J(LX/0A0W;LX/055l;)Z"
+        ],
+        [
+          "LX/055l;",
+          "public static final A00(LX/05Hv;Lcom/instagram/feed/media/Media;LX/055l;Ljava/lang/String;Ljava/util/List;Ljava/util/List;ZZZ)LX/0YKk;"
+        ],
+        [
+          "LX/055l;",
+          "public static final A01(Landroid/content/Context;Ljava/lang/Integer;Lkotlin/jvm/functions/Function0;II)LX/0KqV;"
+        ],
+        [
+          "LX/055l;",
+          "public static final A02(Landroid/content/Context;Ljava/lang/Integer;Ljava/lang/Integer;Lkotlin/jvm/functions/Function0;IIZ)LX/0juk;"
+        ],
+        [
+          "LX/055l;",
+          "public static final A06(Landroid/content/Context;Lcom/instagram/feed/media/Media;LX/0KbC;LX/0Lwi;LX/055l;ZZ)V"
+        ],
+        [
+          "LX/055l;",
+          "public static final A07(Landroid/content/Context;Lcom/instagram/feed/media/Media;LX/0KbC;LX/0Lwi;LX/055l;ZZ)V"
+        ],
+        [
+          "LX/055l;",
+          "public static final A08(Landroid/view/View;LX/011g;LX/05Hv;Lcom/instagram/feed/media/Media;LX/055l;ZZZ)V"
+        ],
+        [
+          "LX/055l;",
+          "public static final A0I(LX/0KbC;LX/055l;LX/0QXD;)V"
+        ],
+        [
+          "LX/055l;",
+          "public static final A0U(LX/011g;LX/055l;LX/0Jxk;)Z"
+        ],
+        [
+          "LX/056a;",
+          "public final HWV(LX/011g;LX/05Hv;Ljava/lang/Float;)V"
+        ],
+        [
+          "LX/0BYH;",
+          "public static A0E(LX/0BYH;I)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0E28;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0LBW;",
+          "public final GHF(Landroid/view/View;)Z"
+        ],
+        [
+          "LX/0Yi1;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Zyb;",
+          "public final F52()V"
+        ],
+        [
+          "LX/0Zyk;",
+          "public final F9K()V"
+        ],
+        [
+          "LX/0acm;",
+          "public final FJL()V"
+        ],
+        [
+          "LX/0myN;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/StoryDownloadHook.java",
+      "line": 105,
+      "kind": "method",
+      "anchors": [
+        "expiring_at"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0000;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/003F;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/003F;",
+          "public static final A00(LX/02z1;LX/0038;)V"
+        ],
+        [
+          "LX/00cS;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/00cS;",
+          "public static final A01(LX/02z1;Lcom/instagram/model/reels/ReelResponseItem;)V"
+        ],
+        [
+          "LX/00v4;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/05iL;",
+          "public static A02(LX/02ak;Lcom/instagram/model/reels/ReelResponseItemIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/06aG;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06aG;",
+          "public static final A0L(LX/02z1;LX/07jd;I)V"
+        ],
+        [
+          "LX/07RR;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/07jd;",
+          "public final A05(LX/02ak;[I)Ljava/util/Map;"
+        ],
+        [
+          "LX/07jd;",
+          "public static A00(LX/02ak;LX/07jd;Ljava/lang/Object;Ljava/util/AbstractMap;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0ALx;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final A6r()Ljava/lang/Long;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final AHb(Ljava/lang/Long;)V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public static constructor <clinit>()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/StoryDownloadHook.java",
+      "line": 147,
+      "kind": "method",
+      "anchors": [
+        "ReelViewerFragment.onCurrentActiveItemBound"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "Linstagram/features/stories/fragment/ReelViewerFragment;",
+          "public final FFj(Lcom/instagram/model/reels/ReelItem;LX/064A;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/StoryDownloadHook.java",
+      "line": 219,
+      "kind": "method",
+      "anchors": [
+        "[INTERNAL] Pause Playback"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0ZHj;",
+          "public final A0q(Landroid/content/Context;Landroid/content/DialogInterface$OnDismissListener;Landroid/view/View;LX/031I;LX/0ngw;LX/03S4;LX/0Ngo;LX/0gkm;LX/0fa2;LX/01P3;LX/01N4;LX/01K4;LX/01O5;LX/01O1;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0E(Landroid/content/Context;LX/0G29;Lcom/instagram/model/reels/ReelItem;LX/0ZHj;LX/01K4;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0F(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/0faX;LX/0fAY;LX/0fAZ;LX/0Ngo;LX/0fa1;LX/0fa3;LX/0ZHj;LX/0Mjx;LX/01LX;LX/01K0;LX/01P3;LX/01K5;LX/01K4;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0H(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/0faX;LX/0Ngo;LX/0fa3;LX/0ZHj;LX/01N1;LX/0Mjx;LX/01K0;LX/01K4;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0I(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/03S4;LX/0Ngo;LX/0gkm;LX/0fa2;LX/0ZHj;LX/01P3;LX/01N4;LX/01K4;LX/01O5;LX/01O1;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0n(LX/03cH;LX/0ZHj;LX/0Mjx;)[Ljava/lang/CharSequence;"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0p(LX/0ZHj;)[Ljava/lang/CharSequence;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/media/StoryDownloadHook.java",
+      "line": 260,
+      "kind": "method",
+      "anchors": [
+        "[INTERNAL] Pause Playback"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0ZHj;",
+          "public final A0q(Landroid/content/Context;Landroid/content/DialogInterface$OnDismissListener;Landroid/view/View;LX/031I;LX/0ngw;LX/03S4;LX/0Ngo;LX/0gkm;LX/0fa2;LX/01P3;LX/01N4;LX/01K4;LX/01O5;LX/01O1;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0E(Landroid/content/Context;LX/0G29;Lcom/instagram/model/reels/ReelItem;LX/0ZHj;LX/01K4;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0F(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/0faX;LX/0fAY;LX/0fAZ;LX/0Ngo;LX/0fa1;LX/0fa3;LX/0ZHj;LX/0Mjx;LX/01LX;LX/01K0;LX/01P3;LX/01K5;LX/01K4;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0H(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/0faX;LX/0Ngo;LX/0fa3;LX/0ZHj;LX/01N1;LX/0Mjx;LX/01K0;LX/01K4;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0I(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/03S4;LX/0Ngo;LX/0gkm;LX/0fa2;LX/0ZHj;LX/01P3;LX/01N4;LX/01K4;LX/01O5;LX/01O1;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0n(LX/03cH;LX/0ZHj;LX/0Mjx;)[Ljava/lang/CharSequence;"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0p(LX/0ZHj;)[Ljava/lang/CharSequence;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/CaptionCopyContextMenuHook.java",
+      "line": 147,
+      "kind": "method",
+      "anchors": [
+        "caption"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/010u;",
+          "public final bridge synthetic B24(Landroid/content/Context;LX/06zb;Lcom/instagram/common/session/UserSession;Lcom/instagram/pendingmedia/model/constants/ShareType;Lcom/instagram/unifieddatamodel/gallery/MediaUploadMetadata;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;JZZZZ)LX/07rV;"
+        ],
+        [
+          "LX/01U0;",
+          "public final F7c(Landroid/view/View;Lcom/instagram/model/reels/ReelItem;LX/00s1;LX/0BEN;)V"
+        ],
+        [
+          "LX/03F8;",
+          "public final A17(Landroid/view/View;)V"
+        ],
+        [
+          "LX/03c1;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/03c1;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/XDTThreadsTopReplyImpl;)V"
+        ],
+        [
+          "LX/03gE;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/04c9;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/04c9;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/GlimmerInfoImpl;)V"
+        ],
+        [
+          "LX/04fm;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/04g8;",
+          "public static final A01(Ljava/lang/String;)I"
+        ],
+        [
+          "LX/05RX;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/05jZ;",
+          "public static A00(LX/05jZ;)Ljava/lang/String;"
+        ],
+        [
+          "LX/06B3;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06B3;",
+          "public static final A00(LX/02z1;LX/0ZRq;)V"
+        ],
+        [
+          "LX/06BJ;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06BJ;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/FetchGizmoPostMetadataResponse_fetch__XGZPostImpl;)V"
+        ],
+        [
+          "LX/06aG;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06aG;",
+          "public static final A0L(LX/02z1;LX/07jd;I)V"
+        ],
+        [
+          "LX/06yS;",
+          "public final A0o(LX/04nH;)LX/047e;"
+        ],
+        [
+          "LX/07jd;",
+          "public final A04(LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/07jd;",
+          "public final A05(LX/02ak;[I)Ljava/util/Map;"
+        ],
+        [
+          "LX/07zp;",
+          "public final bridge synthetic B24(Landroid/content/Context;LX/06zb;Lcom/instagram/common/session/UserSession;Lcom/instagram/pendingmedia/model/constants/ShareType;Lcom/instagram/unifieddatamodel/gallery/MediaUploadMetadata;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;JZZZZ)LX/07rV;"
+        ],
+        [
+          "LX/08DS;",
+          "public final A0o(LX/04nH;)LX/047e;"
+        ],
+        [
+          "LX/08DS;",
+          "public static final A02()LX/06iP;"
+        ],
+        [
+          "LX/08EY;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/08Ev;",
+          "public final A0o(LX/04nH;)LX/047e;"
+        ],
+        [
+          "LX/094m;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/094m;",
+          "public static final A00(LX/02z1;Lcom/instagram/api/schemas/SuggestedUserDict;)V"
+        ],
+        [
+          "LX/096N;",
+          "public final invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/09fm;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/09fm;",
+          "public static final A03(LX/02z1;LX/09fn;)V"
+        ],
+        [
+          "LX/09rk;",
+          "public final bridge synthetic FOY(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/09v1;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0ALx;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0Amg;",
+          "public final A0I(LX/0PQG;Ljava/lang/Boolean;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Double;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;D)V"
+        ],
+        [
+          "LX/0Asu;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Azd;",
+          "public final bridge synthetic FOY(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0BEu;",
+          "public final A00(LX/0BEt;)Ljava/lang/String;"
+        ],
+        [
+          "LX/0BEu;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0BFs;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0BGq;",
+          "public static A01(LX/02ak;LX/0NeC;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0Bzf;",
+          "public static final A01(Lcom/instagram/common/session/UserSession;)Ljava/lang/Integer;"
+        ],
+        [
+          "LX/0Duw;",
+          "public static final A05(LX/054Z;Lcom/instagram/common/session/UserSession;LX/0DvJ;Ljava/util/List;JZZ)V"
+        ],
+        [
+          "LX/0E6J;",
+          "public final bridge synthetic FOY(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0GF6;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0HGz;",
+          "public final A01(LX/04b3;)LX/0AWr;"
+        ],
+        [
+          "LX/0HMM;",
+          "public final invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Hea;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Hea;",
+          "public static final A00(LX/02z1;LX/0Hov;)V"
+        ],
+        [
+          "LX/0Hv0;",
+          "public final invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Iru;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Iru;",
+          "public static final A00(LX/02z1;Lcom/instagram/model/reels/SuggestedUserTypedDict;)V"
+        ],
+        [
+          "LX/0JSY;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0KLh;",
+          "public static final A00(Lcom/instagram/common/session/UserSession;Ljava/lang/String;Lkotlin/jvm/functions/Function1;DIIIZZZZZZZ)LX/07rX;"
+        ],
+        [
+          "LX/0Kgb;",
+          "public final A0o(LX/04nH;)LX/047e;"
+        ],
+        [
+          "LX/0Krj;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0LAX;",
+          "public static final A00(Ljava/lang/String;)Ljava/lang/String;"
+        ],
+        [
+          "LX/0LEv;",
+          "public static final A00(Lcom/instagram/common/session/UserSession;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Z)Ljava/lang/String;"
+        ],
+        [
+          "LX/0Lek;",
+          "public static A01(LX/02ak;Lcom/instagram/api/schemas/SuggestedUserDictIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0Leq;",
+          "public static A01(LX/02ak;Lcom/instagram/model/reels/SuggestedUserTypedDictIntf;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0MHi;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0NvJ;",
+          "public static final A00(LX/0Tgm;Ljava/lang/String;)Ljava/lang/String;"
+        ],
+        [
+          "LX/0OUo;",
+          "public static final A00(LX/02z1;LX/0C1S;)V"
+        ],
+        [
+          "LX/0OWw;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0OWw;",
+          "public static final A00(LX/02z1;LX/0Muv;)V"
+        ],
+        [
+          "LX/0PjN;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Q7X;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Qwk;",
+          "public final DzE(Landroid/net/Uri;Landroid/os/Bundle;Lcom/instagram/common/session/UserSession;)V"
+        ],
+        [
+          "LX/0Qzs;",
+          "public final F55()V"
+        ],
+        [
+          "LX/0RYd;",
+          "public static final A00(Lcom/instagram/common/session/UserSession;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)LX/07rV;"
+        ],
+        [
+          "LX/0SQt;",
+          "public static final A00(LX/02z1;LX/0YS9;)V"
+        ],
+        [
+          "LX/0Sk9;",
+          "public static final A00(Lcom/instagram/common/session/UserSession;Lcom/instagram/model/sharelater/ShareLaterMedia;)LX/07rV;"
+        ],
+        [
+          "LX/0So9;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0T8A;",
+          "public final A00(LX/08XX;)Ljava/lang/String;"
+        ],
+        [
+          "LX/0TPz;",
+          "public static final A00(LX/0Ahi;LX/0197;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Tpa;",
+          "public final FUF(Ljava/lang/String;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0Ub8;",
+          "public final bridge synthetic EGY(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0VcW;",
+          "public final bridge synthetic B24(Landroid/content/Context;LX/06zb;Lcom/instagram/common/session/UserSession;Lcom/instagram/pendingmedia/model/constants/ShareType;Lcom/instagram/unifieddatamodel/gallery/MediaUploadMetadata;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;JZZZZ)LX/07rV;"
+        ],
+        [
+          "LX/0VcX;",
+          "public final bridge synthetic B24(Landroid/content/Context;LX/06zb;Lcom/instagram/common/session/UserSession;Lcom/instagram/pendingmedia/model/constants/ShareType;Lcom/instagram/unifieddatamodel/gallery/MediaUploadMetadata;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;JZZZZ)LX/07rV;"
+        ],
+        [
+          "LX/0ViD;",
+          "public static final A00(LX/0Ahi;LX/0197;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Xm3;",
+          "public static A01(LX/02ak;LX/0gaZ;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0Xnt;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Xqi;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0YOc;",
+          "public final A04(Lcom/instagram/common/session/UserSession;Lcom/instagram/feed/media/Media;LX/0AJX;Lcom/instagram/search/common/analytics/SearchContext;Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/0YOc;",
+          "public final A05(Lcom/instagram/common/session/UserSession;Lcom/instagram/feed/media/Media;LX/0AJX;Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/0Znf;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0gKJ;",
+          "public static A01(LX/02ak;LX/0nR0;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0ggI;",
+          "public static A01(LX/02ak;LX/0j00;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0hPl;",
+          "public final A04(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0iHc;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0iMP;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0ioD;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0ioD;",
+          "public static final A00(LX/02z1;LX/0Y4g;)V"
+        ],
+        [
+          "LX/0lKz;",
+          "public final GQD(LX/011g;II)V"
+        ],
+        [
+          "LX/0myV;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0oAi;",
+          "public final GVt(Landroid/content/Context;LX/0ZS1;)V"
+        ],
+        [
+          "LX/0pxj;",
+          "public static constructor <clinit>()V"
+        ],
+        [
+          "LX/0qpH;",
+          "public static A02(Lcom/instagram/api/schemas/FetchGizmoPostMetadataResponse_fetch__XGZPost;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0qq0;",
+          "public static A02(Lcom/instagram/api/schemas/GlimmerInfo;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0rAd;",
+          "public static A02(Lcom/instagram/api/schemas/XDTThreadsTopReply;)Ljava/util/Map;"
+        ],
+        [
+          "Lcom/instagram/aiconsumption/characters/drafts/data/AICharactersDraftsRepository;",
+          "public final A08(Lcom/instagram/unifieddatamodel/audio/AudioOverlayTrack;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;LX/0haL;Z)Ljava/lang/Object;"
+        ],
+        [
+          "Lcom/instagram/aiconsumption/characters/drafts/data/AICharactersDraftsRepository;",
+          "public final A09(Lcom/instagram/unifieddatamodel/audio/AudioOverlayTrack;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;LX/0haL;Z)Ljava/lang/Object;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final A36()LX/02Kx;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final ADi(LX/02Kx;)V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public static constructor <clinit>()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/CaptionCopyContextMenuHook.java",
+      "line": 260,
+      "kind": "class",
+      "anchors": [
+        "MediaOptionsOverflowMenuCreator"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0YUl;",
+          ""
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/CaptionCopyContextMenuHook.java",
+      "line": 579,
+      "kind": "method",
+      "anchors": [
+        "Unsupported text row for Clips Viewer Overflow menu."
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/056b;",
+          "public final A02(Lcom/instagram/common/session/UserSession;Lcom/instagram/feed/media/mediaoption/MediaOption$Option;Z)I"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/CommentCopyHook.java",
+      "line": 204,
+      "kind": "method",
+      "anchors": [
+        "fb_comment_long_press"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0Q1Q;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0SxY;",
+          "public final onLongPress(Landroid/view/MotionEvent;)V"
+        ],
+        [
+          "LX/0Sxd;",
+          "public final onLongPress(Landroid/view/MotionEvent;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/CommentCopyHook.java",
+      "line": 206,
+      "kind": "method",
+      "anchors": [
+        "comment_row_component"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0Q1Q;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0SxY;",
+          "public final onDoubleTap(Landroid/view/MotionEvent;)Z"
+        ],
+        [
+          "LX/0SxY;",
+          "public final onLongPress(Landroid/view/MotionEvent;)V"
+        ],
+        [
+          "LX/0SxY;",
+          "public final onSingleTapConfirmed(Landroid/view/MotionEvent;)Z"
+        ],
+        [
+          "LX/0Sxd;",
+          "public final onDoubleTap(Landroid/view/MotionEvent;)Z"
+        ],
+        [
+          "LX/0Sxd;",
+          "public final onLongPress(Landroid/view/MotionEvent;)V"
+        ],
+        [
+          "LX/0Sxd;",
+          "public final onSingleTapConfirmed(Landroid/view/MotionEvent;)Z"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/CommentCopyHook.java",
+      "line": 209,
+      "kind": "class",
+      "anchors": [
+        "fb_comment_long_press"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0Q1Q;",
+          ""
+        ],
+        [
+          "LX/0SxY;",
+          ""
+        ],
+        [
+          "LX/0Sxd;",
+          ""
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/DisableDoubleTapLikeHook.java",
+      "line": 164,
+      "kind": "method",
+      "anchors": [
+        "double_tap_on_liked",
+        "used_double_tap"
+      ],
+      "status": "LEGACY_FALLBACK_REPLACED_BY_450_PROFILE",
+      "candidates": []
+    },
+    {
+      "file": "mods/misc/DisableDoubleTapLikeHook.java",
+      "line": 198,
+      "kind": "class",
+      "anchors": [
+        "clips_doubletap",
+        "LIKE_FIRED"
+      ],
+      "status": "LEGACY_FALLBACK_REPLACED_BY_450_PROFILE",
+      "candidates": []
+    },
+    {
+      "file": "mods/misc/DisableDoubleTapLikeHook.java",
+      "line": 199,
+      "kind": "method",
+      "anchors": [
+        "clips_doubletap"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0IFm;",
+          "public static A00(ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Iow;",
+          "public final A00(Landroid/view/View;Ljava/lang/String;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/DisableStoryFlippingHook.java",
+      "line": 41,
+      "kind": "method",
+      "anchors": [
+        "userSession"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/005Y;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/00mX;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/013W;",
+          "public final getUserSession()Lcom/instagram/common/session/UserSession;"
+        ],
+        [
+          "LX/01H9;",
+          "public final FFk(Lcom/instagram/model/reels/ReelItem;LX/00s1;LX/0HCA;LX/064A;)V"
+        ],
+        [
+          "LX/01I9;",
+          "private final A01(LX/0AeJ;)LX/0Ae2;"
+        ],
+        [
+          "LX/01I9;",
+          "private final A02(Lcom/instagram/model/reels/ReelItem;LX/00s1;)LX/0ZHj;"
+        ],
+        [
+          "LX/01I9;",
+          "private final A08(LX/06zb;Lcom/instagram/model/reels/ReelItem;LX/0Igr;)V"
+        ],
+        [
+          "LX/01I9;",
+          "private final A09(Lcom/instagram/api/schemas/GenAIToolInfoDictIntf;Lcom/instagram/model/reels/ReelItem;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "private final A0A(Lcom/instagram/api/schemas/MediaFollowHashtagInfo;)V"
+        ],
+        [
+          "LX/01I9;",
+          "private final A0P(Ljava/lang/String;Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "private final A0T(Z)Z"
+        ],
+        [
+          "LX/01I9;",
+          "public final A0U(Lcom/instagram/model/reels/ReelItem;LX/00s1;)Ljava/util/List;"
+        ],
+        [
+          "LX/01I9;",
+          "public final A0W(Landroid/content/Context;Ljava/lang/Integer;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final A0b(Ljava/lang/Integer;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final A0c(Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final A0d(LX/00s1;)Z"
+        ],
+        [
+          "LX/01I9;",
+          "public final BBd()Z"
+        ],
+        [
+          "LX/01I9;",
+          "public final DzM(LX/0ZVv;LX/06HA;Lcom/instagram/model/reels/ReelItem;LX/09v3;LX/0MQb;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final EjR(Lcom/instagram/model/reels/ReelItem;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Exo(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Exz(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final EyI(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final EzT(Lcom/instagram/model/reels/ReelItem;LX/00s1;LX/0aF8;Ljava/util/List;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Eze(LX/06zb;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F1P(LX/0IkX;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F1Q()V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F1R(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F2n(JLjava/lang/String;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F2o()V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F3J(Landroid/view/View;Lcom/instagram/reels/interactive/Interactive;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F42(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F5V(Landroid/view/MotionEvent;)Z"
+        ],
+        [
+          "LX/01I9;",
+          "public final F5b()V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F71(Ljava/lang/String;Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F7U(LX/074Y;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F9H(LX/05BM;LX/0PC1;I)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final F9u(LX/02AH;Lcom/instagram/user/model/User;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FBR(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FEI(LX/00s1;LX/0HCA;I)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FF9(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FFN()V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FFO(Lcom/instagram/model/reels/ReelItem;LX/0JxA;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FGs(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FJw(F)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FM3(Landroid/graphics/RectF;Lcom/instagram/api/schemas/CreativeConfigDictIntf;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FMC(Lcom/instagram/api/schemas/CreativeConfigDictIntf;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FR7(Lcom/instagram/model/reels/ReelItem;LX/00s1;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FRC(Lcom/instagram/model/reels/ReelItem;LX/0MeQ;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FS3(I)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FTr(Lcom/instagram/api/schemas/ButtonSpecIntf;LX/05BM;I)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FW5(LX/0ImJ;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FXL(LX/00s1;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FXZ(Lcom/instagram/model/reels/ReelItem;LX/00s1;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FXi(Lcom/instagram/reels/interactive/Interactive;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FZz(Lcom/instagram/model/reels/ReelItem;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fc0(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fcw(Lcom/instagram/api/schemas/CreativeConfigDictIntf;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FfO(FF)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fi3(LX/0P7x;LX/0P7y;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FiO(LX/0ejm;LX/0WF9;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fik(Lcom/instagram/feed/media/Media;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FjQ(Lcom/instagram/model/reels/ReelItem;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FjY(Lcom/instagram/api/schemas/GenAIToolInfoDictIntf;Lcom/instagram/model/reels/ReelItem;Ljava/lang/Integer;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FjZ(LX/0Il2;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fjk(LX/0IlR;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fju()V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fk1(Landroid/view/View;Lcom/instagram/model/reels/ReelItem;Ljava/util/List;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fl3(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FoR(LX/05BM;LX/0PC2;I)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fq5(Lcom/instagram/model/reels/ReelItem;LX/00s1;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fw6(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fw9(LX/06zb;Lcom/instagram/api/schemas/HallpassDetailsDict;Lcom/instagram/reels/prompt/model/PromptStickerModel;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Fwy()V"
+        ],
+        [
+          "LX/01I9;",
+          "public final FyA(Lcom/instagram/reels/interactive/Interactive;II)Z"
+        ],
+        [
+          "LX/01I9;",
+          "public final FyL(Landroid/graphics/RectF;Lcom/instagram/model/reels/ReelItem;LX/00s1;Ljava/lang/Integer;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final G1d(Lcom/instagram/model/reels/ReelItem;LX/04du;LX/00s1;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final G1f(Landroid/view/View;Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final G2q(LX/00bH;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final G4K(LX/00s1;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final G4L()V"
+        ],
+        [
+          "LX/01I9;",
+          "public final G65()V"
+        ],
+        [
+          "LX/01I9;",
+          "public final G7P(Lcom/instagram/model/reels/ReelItem;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final G87(Lcom/instagram/common/typedurl/ImageUrl;Lcom/instagram/model/shopping/ProductAREffectContainer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final G8a(Lcom/instagram/model/reels/ReelItem;LX/00s1;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GBv(LX/01VO;LX/0IlW;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GD7(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GDC(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GDf(LX/04dr;Ljava/lang/String;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GG3(FF)Z"
+        ],
+        [
+          "LX/01I9;",
+          "public final GGL(Landroid/view/MotionEvent;Landroid/view/MotionEvent;Ljava/lang/Object;FFZ)Z"
+        ],
+        [
+          "LX/01I9;",
+          "public final GHB(FF)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GHr(Lcom/instagram/api/schemas/GenAIToolInfoDictIntf;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GMx(Landroid/view/View;FFZ)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GO9(Lcom/instagram/model/reels/ReelItem;LX/00s1;Lcom/instagram/user/model/User;Ljava/lang/Integer;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GP3(LX/0Igs;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GSf()V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GSj(Lcom/instagram/model/reels/ReelItem;LX/00s1;LX/02n4;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GSk(Lcom/instagram/model/reels/ReelItem;LX/0HCA;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GSl(Lcom/instagram/model/reels/ReelItem;LX/00s1;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GTl(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GUL(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final GYz(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Gfo(Landroid/view/View;Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Gft(Landroid/view/View;Lcom/instagram/feed/media/Media;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final Gfy(Landroid/view/View;Lcom/instagram/model/reels/ReelItem;LX/00s1;Ljava/lang/Long;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public final onSingleTapConfirmed(Landroid/view/MotionEvent;)Z"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A05(Landroid/content/Context;Landroid/graphics/RectF;Lcom/instagram/api/schemas/CreativeConfigDictIntf;LX/0Dij;LX/01I9;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A06(Landroid/view/View;Lcom/instagram/model/reels/ReelItem;LX/00s1;LX/01I9;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A07(LX/0QYc;LX/031I;LX/01I9;LX/0JxA;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A0C(Lcom/instagram/common/session/UserSession;Lcom/instagram/model/reels/ReelItem;LX/00s1;LX/01I9;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A0E(Lcom/instagram/model/reels/ReelItem;LX/00s1;LX/01I9;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A0F(Lcom/instagram/model/reels/ReelItem;LX/00s1;LX/01I9;Ljava/lang/String;ZZZ)V"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A0G(Lcom/instagram/model/reels/ReelItem;LX/09v3;Lcom/instagram/user/model/User;LX/01I9;Ljava/lang/Integer;ZZ)V"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A0H(Lcom/instagram/model/reels/ReelItem;LX/01I9;)V"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A0I(Lcom/instagram/model/reels/ReelItem;LX/01I9;Z)V"
+        ],
+        [
+          "LX/01I9;",
+          "public static final A0K(LX/01I9;)V"
+        ],
+        [
+          "LX/01J0;",
+          "public static A1C()V"
+        ],
+        [
+          "LX/01O1;",
+          "public final A00(Z)V"
+        ],
+        [
+          "LX/01P3;",
+          "public final A00(Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "LX/01QR;",
+          "public final A00(Landroid/content/Context;Landroid/view/View;LX/0Dij;Lcom/instagram/model/reels/ReelItem;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01R4;",
+          "public final FEo()V"
+        ],
+        [
+          "LX/01R4;",
+          "public final FFC(Landroid/view/View;)V"
+        ],
+        [
+          "LX/01R4;",
+          "public final onDestroy()V"
+        ],
+        [
+          "LX/01R4;",
+          "public final onDestroyView()V"
+        ],
+        [
+          "LX/01R4;",
+          "public static final A00(Landroid/content/Context;LX/01R4;LX/0haL;LX/01V6;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/01R7;",
+          "public final bridge synthetic AMh(Ljava/lang/Object;)Z"
+        ],
+        [
+          "LX/01RW;",
+          "public final GQU()V"
+        ],
+        [
+          "LX/01T8;",
+          "public final FGv(LX/09gD;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01T8;",
+          "public final FGw(LX/09gD;)V"
+        ],
+        [
+          "LX/01T8;",
+          "public final FK0(LX/09gD;)V"
+        ],
+        [
+          "LX/01T8;",
+          "public final FZy(LX/09gD;)V"
+        ],
+        [
+          "LX/01T8;",
+          "public final G8B(LX/09gD;)V"
+        ],
+        [
+          "LX/01U0;",
+          "public final A0J()Lcom/instagram/common/session/UserSession;"
+        ],
+        [
+          "LX/01Ur;",
+          "public final F3T(Lcom/instagram/api/schemas/CreativeConfigDictIntf;Lcom/instagram/reels/interactive/Interactive;Lcom/instagram/reels/prompt/model/PromptStickerModel;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01Ur;",
+          "public final Fl2(LX/0Hlw;LX/0V0i;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;I)V"
+        ],
+        [
+          "LX/01Ur;",
+          "public final GLj()V"
+        ],
+        [
+          "LX/01Ur;",
+          "public final GLk(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01Ur;",
+          "public final GLl(Z)V"
+        ],
+        [
+          "LX/01Ur;",
+          "public final GLm(Ljava/lang/String;Ljava/util/List;Lkotlin/jvm/functions/Function0;)V"
+        ],
+        [
+          "LX/01Ur;",
+          "public final GLn(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/01ls;",
+          "public static A01()V"
+        ],
+        [
+          "LX/020S;",
+          "public final A00(Lcom/instagram/model/reels/ReelItem;LX/00s1;LX/0HCA;LX/0Kwl;LX/09v3;)V"
+        ],
+        [
+          "LX/022C;",
+          "public final Adi(LX/00dC;)V"
+        ],
+        [
+          "LX/022C;",
+          "public final getSession()LX/01sc;"
+        ],
+        [
+          "LX/022C;",
+          "public final onBackPressed()Z"
+        ],
+        [
+          "LX/022C;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "LX/022C;",
+          "public static final A00(LX/022C;)V"
+        ],
+        [
+          "LX/022C;",
+          "public static final A01(LX/022C;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/029U;",
+          "public static A0n(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0359;",
+          "public static A0P(Ljava/lang/Object;Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0375;",
+          "public static A08(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/03Qq;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/03b9;",
+          "public A0M()LX/06c1;"
+        ],
+        [
+          "LX/03u2;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/03u2;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/03u2;",
+          "public static final A01(LX/03u2;)V"
+        ],
+        [
+          "LX/03u2;",
+          "public static final A02(LX/03u2;Ljava/lang/String;ZZ)V"
+        ],
+        [
+          "LX/04e4;",
+          "public final onActivityResult(IILandroid/content/Intent;)V"
+        ],
+        [
+          "LX/04e4;",
+          "public final onDestroyView()V"
+        ],
+        [
+          "LX/04e4;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/06AA;",
+          "private final A00(Ljava/lang/String;[BZ)LX/0b4Y;"
+        ],
+        [
+          "LX/06AA;",
+          "private final A01(LX/0qjO;LX/0kBw;Ljava/lang/String;Ljava/lang/String;[BZ)V"
+        ],
+        [
+          "LX/06AA;",
+          "public final A07([B)Z"
+        ],
+        [
+          "LX/06B9;",
+          "public final getUserSession()Lcom/instagram/common/session/UserSession;"
+        ],
+        [
+          "LX/0730;",
+          "public static A0C(LX/0730;I)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0748;",
+          "public static A00(Landroid/os/Bundle;Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;Ljava/lang/Integer;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0748;",
+          "public static A0Q(LX/0748;I)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0753;",
+          "public final bridge synthetic A0r(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/07KL;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/07OB;",
+          "public final A05()V"
+        ],
+        [
+          "LX/0B2V;",
+          "public final onFinish()V"
+        ],
+        [
+          "LX/0B44;",
+          "public final onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V"
+        ],
+        [
+          "LX/0BAR;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/0BHC;",
+          "public final bridge synthetic get()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0BcQ;",
+          "public final getSession()LX/01sc;"
+        ],
+        [
+          "LX/0BcQ;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0BcQ;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0C4B;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0C67;",
+          "public final bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0C7Y;",
+          "public final bridge synthetic FOY(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0CSD;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0CYI;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Cfy;",
+          "public final getSession()LX/01sc;"
+        ],
+        [
+          "LX/0Cfy;",
+          "public static final A00(LX/0Cfy;)V"
+        ],
+        [
+          "LX/0CgY;",
+          "public static final A00()V"
+        ],
+        [
+          "LX/0D6b;",
+          "public final bridge synthetic onChanged(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0DOq;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0DOu;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0DWI;",
+          "public synthetic GPO(LX/0YL0;)V"
+        ],
+        [
+          "LX/0DXc;",
+          "private final A0p(Ljava/util/List;)V"
+        ],
+        [
+          "LX/0Dlx;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0ETu;",
+          "public final A08(LX/0I5N;)V"
+        ],
+        [
+          "LX/0EVu;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0EWu;",
+          "private final A00()V"
+        ],
+        [
+          "LX/0EWu;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0EXv;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0EZg;",
+          "public final FuX()V"
+        ],
+        [
+          "LX/0EZg;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "LX/0EZg;",
+          "public final onResume()V"
+        ],
+        [
+          "LX/0EZg;",
+          "public static final A01(LX/083T;LX/0EZg;Ljava/util/Map;)V"
+        ],
+        [
+          "LX/0Ep6;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Epu;",
+          "public final onCheckedChanged(Landroid/widget/CompoundButton;Z)V"
+        ],
+        [
+          "LX/0Eqg;",
+          "public final F9u(LX/02AH;Lcom/instagram/user/model/User;)V"
+        ],
+        [
+          "LX/0Eqg;",
+          "public final GOg(LX/0DFT;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0Eqg;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0Eqg;",
+          "public static final A01(LX/0Eqg;Ljava/util/List;)Ljava/util/List;"
+        ],
+        [
+          "LX/0FVk;",
+          "public final A01(Ljava/util/List;)V"
+        ],
+        [
+          "LX/0FXP;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0FbQ;",
+          "public final onClick(Landroid/content/DialogInterface;I)V"
+        ],
+        [
+          "LX/0FgW;",
+          "public static final A01(Landroid/view/View;LX/00s1;LX/0FgW;)V"
+        ],
+        [
+          "LX/0G5R;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0G84;",
+          "public static A0X(LX/0G84;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0GTU;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0GiO;",
+          "public final HWZ(Landroid/graphics/PointF;LX/0Mfm;LX/05Xs;JZZ)V"
+        ],
+        [
+          "LX/0GtR;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/0HJC;",
+          "public final bridge synthetic A0r(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0HJH;",
+          "public final bridge synthetic A0r(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0HME;",
+          "public final bridge synthetic A0x(Lcom/instagram/common/session/UserSession;Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0HME;",
+          "public final bridge synthetic A0y(Lcom/instagram/common/session/UserSession;Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0HMT;",
+          "public static final A00(LX/0HMT;)V"
+        ],
+        [
+          "LX/0HPY;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0HPq;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0HPq;",
+          "public static final A00(LX/0HPq;)V"
+        ],
+        [
+          "LX/0HTT;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "LX/0HVW;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0HVW;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "LX/0HVW;",
+          "public static final A04(LX/0HVW;)V"
+        ],
+        [
+          "LX/0HWt;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0HYe;",
+          "private final A01()LX/02rM;"
+        ],
+        [
+          "LX/0HYe;",
+          "public final A0G(Z)V"
+        ],
+        [
+          "LX/0HYe;",
+          "public final GUh()V"
+        ],
+        [
+          "LX/0HYe;",
+          "public final GUn()V"
+        ],
+        [
+          "LX/0HYe;",
+          "public final GUy()V"
+        ],
+        [
+          "LX/0HYe;",
+          "public final GUz()V"
+        ],
+        [
+          "LX/0HYe;",
+          "public final GVg(Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0HYe;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0HYe;",
+          "public static final A08(LX/0N5M;LX/0N2H;LX/0HYe;Ljava/util/List;)V"
+        ],
+        [
+          "LX/0HYe;",
+          "public static final A0B(LX/05v2;LX/0HYe;Ljava/util/List;)V"
+        ],
+        [
+          "LX/0HZM;",
+          "public static A01(LX/0HZM;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0HZT;",
+          "public final FAJ(LX/04dn;Lcom/instagram/ui/widget/gradientspinneravatarview/GradientSpinnerAvatarView;)V"
+        ],
+        [
+          "LX/0HZT;",
+          "public final GFI()V"
+        ],
+        [
+          "LX/0HZT;",
+          "public final GOg(LX/0DFT;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0HZT;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0I4E;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0II6;",
+          "public static final A02(LX/0II6;)V"
+        ],
+        [
+          "LX/0IOD;",
+          "public final bindView(ILandroid/view/View;Ljava/lang/Object;Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0IvM;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/0Izq;",
+          "public final getUserSession()Lcom/instagram/common/session/UserSession;"
+        ],
+        [
+          "LX/0J8E;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0JKV;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0KMw;",
+          "public final A0A(LX/05Yk;Ljava/util/LinkedHashMap;Z)V"
+        ],
+        [
+          "LX/0KOb;",
+          "public static final A0L(LX/0KOb;Z)V"
+        ],
+        [
+          "LX/0KrL;",
+          "public final A00()LX/0FBx;"
+        ],
+        [
+          "LX/0L2c;",
+          "public final bridge synthetic call()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0L3k;",
+          "public final A00(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0LKe;",
+          "public final onBackStackChanged()V"
+        ],
+        [
+          "LX/0Lec;",
+          "public static final A00(LX/02eh;)Lcom/facebook/fbavatar/cdsavatareditor/richavatarretextureview/impl/AvatarRetextureSparkPreviewController;"
+        ],
+        [
+          "LX/0LxV;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0MCi;",
+          "public final GJB(LX/09Po;LX/0ZVv;)Z"
+        ],
+        [
+          "LX/0MKD;",
+          "public final onCancel(Landroid/content/DialogInterface;)V"
+        ],
+        [
+          "LX/0MRF;",
+          "public final onClick(Landroid/content/DialogInterface;I)V"
+        ],
+        [
+          "LX/0MRG;",
+          "public final onClick(Landroid/content/DialogInterface;I)V"
+        ],
+        [
+          "LX/0MWO;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0MWW;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0MWY;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0MXM;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Mnp;",
+          "public final onShow(Landroid/content/DialogInterface;)V"
+        ],
+        [
+          "LX/0Mse;",
+          "public final bridge synthetic FOY(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0MwQ;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Mxy;",
+          "public final run()V"
+        ],
+        [
+          "LX/0Mxz;",
+          "public final run()V"
+        ],
+        [
+          "LX/0N6j;",
+          "public final onSuccess()V"
+        ],
+        [
+          "LX/0NNc;",
+          "public final bridge synthetic FOY(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0Nd9;",
+          "public final GIu(Z)Z"
+        ],
+        [
+          "LX/0NnB;",
+          "public final bridge synthetic ASt(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0NnH;",
+          "public final FSZ()V"
+        ],
+        [
+          "LX/0Oid;",
+          "public final run()V"
+        ],
+        [
+          "LX/0Oif;",
+          "public final run()V"
+        ],
+        [
+          "LX/0OlV;",
+          "public final A03(LX/0Dij;Ljava/lang/Boolean;Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0PBQ;",
+          "public final bridge synthetic call()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0PEJ;",
+          "public final run()V"
+        ],
+        [
+          "LX/0PiZ;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0PjJ;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0PjL;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0PjO;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Pzs;",
+          "public final FFB(Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0Q99;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0QL2;",
+          "public static final A00(LX/0Ahi;LX/0197;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Qhd;",
+          "public final G8G(Lcom/instagram/pendingmedia/model/UserStoryTarget;)V"
+        ],
+        [
+          "LX/0R6T;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0RJm;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/0Rez;",
+          "public final Fb6(LX/0BEH;)V"
+        ],
+        [
+          "LX/0RiF;",
+          "private final A09(ZZ)V"
+        ],
+        [
+          "LX/0RiF;",
+          "public final Adi(LX/00dC;)V"
+        ],
+        [
+          "LX/0RiF;",
+          "public final getModuleName()Ljava/lang/String;"
+        ],
+        [
+          "LX/0RiF;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0RiF;",
+          "public final onResume()V"
+        ],
+        [
+          "LX/0RiF;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0RiF;",
+          "public static final A06(LX/0TOb;LX/0RiF;ZZZ)V"
+        ],
+        [
+          "LX/0Rj4;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0Rj4;",
+          "public final onResume()V"
+        ],
+        [
+          "LX/0RkI;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0RkI;",
+          "public static final A01(LX/0RkI;)V"
+        ],
+        [
+          "LX/0Rm9;",
+          "public final FWU(Landroid/view/View;LX/0P9h;I)V"
+        ],
+        [
+          "LX/0Rm9;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0Rtd;",
+          "public final FJh(LX/08Bo;Lcom/instagram/direct/inbox/notes/ui/NoteAvatarView;Ljava/lang/Integer;)V"
+        ],
+        [
+          "LX/0RyC;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0SKC;",
+          "public final FJQ()V"
+        ],
+        [
+          "LX/0SKF;",
+          "public final bridge synthetic A0r(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0SQe;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Scr;",
+          "public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Sz9;",
+          "public final A0V(Landroid/view/ViewGroup;I)LX/0Fmt;"
+        ],
+        [
+          "LX/0TmM;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0TsZ;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0UfR;",
+          "public final AZs()V"
+        ],
+        [
+          "LX/0Uy2;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/0VZA;",
+          "public static final A00(Landroid/view/View;LX/02eh;LX/074x;)V"
+        ],
+        [
+          "LX/0WnS;",
+          "public final run()V"
+        ],
+        [
+          "LX/0WnT;",
+          "public final run()V"
+        ],
+        [
+          "LX/0XAO;",
+          "public final run()V"
+        ],
+        [
+          "LX/0XAy;",
+          "public final run()V"
+        ],
+        [
+          "LX/0XLV;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0XLV;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "LX/0XMt;",
+          "public final A08(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0XMt;",
+          "public final EyH()V"
+        ],
+        [
+          "LX/0XMt;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0XMt;",
+          "public static final A02(LX/0XMt;)V"
+        ],
+        [
+          "LX/0XOf;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0XPE;",
+          "public final FAJ(LX/04dn;Lcom/instagram/ui/widget/gradientspinneravatarview/GradientSpinnerAvatarView;)V"
+        ],
+        [
+          "LX/0XPE;",
+          "public final GSm(LX/0P7r;)V"
+        ],
+        [
+          "LX/0XPE;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0XPH;",
+          "public final FAJ(LX/04dn;Lcom/instagram/ui/widget/gradientspinneravatarview/GradientSpinnerAvatarView;)V"
+        ],
+        [
+          "LX/0XPH;",
+          "public final GSm(LX/0P7r;)V"
+        ],
+        [
+          "LX/0XPH;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0XPO;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0XQz;",
+          "public final A02(LX/03zO;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)V"
+        ],
+        [
+          "LX/0XqP;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0Y2j;",
+          "public final bridge synthetic A0r(Ljava/lang/Object;)V"
+        ],
+        [
+          "LX/0YQ0;",
+          "public final A0o(LX/04nH;)LX/047e;"
+        ],
+        [
+          "LX/0YTz;",
+          "private final A0G(LX/0T0E;Ljava/io/File;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0Yh5;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Ym3;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Ym4;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Ym5;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0Ym9;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0ZAc;",
+          "public final GM8()V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0F(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/0faX;LX/0fAY;LX/0fAZ;LX/0Ngo;LX/0fa1;LX/0fa3;LX/0ZHj;LX/0Mjx;LX/01LX;LX/01K0;LX/01P3;LX/01K5;LX/01K4;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0H(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/0faX;LX/0Ngo;LX/0fa3;LX/0ZHj;LX/01N1;LX/0Mjx;LX/01K0;LX/01K4;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0I(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/03S4;LX/0Ngo;LX/0gkm;LX/0fa2;LX/0ZHj;LX/01P3;LX/01N4;LX/01K4;LX/01O5;LX/01O1;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0Zyd;",
+          "public final FJU()V"
+        ],
+        [
+          "LX/0abr;",
+          "public final F52()V"
+        ],
+        [
+          "LX/0bdn;",
+          "public final run()V"
+        ],
+        [
+          "LX/0bye;",
+          "public final A0A(LX/02IN;LX/01sc;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0c8M;",
+          "public final getSession()LX/01sc;"
+        ],
+        [
+          "LX/0c8M;",
+          "public final onBackPressed()Z"
+        ],
+        [
+          "LX/0c8z;",
+          "public final getSession()LX/01sc;"
+        ],
+        [
+          "LX/0c8z;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0cCa;",
+          "private final A02()Z"
+        ],
+        [
+          "LX/0cCa;",
+          "public final F52()V"
+        ],
+        [
+          "LX/0cCa;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0cCa;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "LX/0ca3;",
+          "public final run()V"
+        ],
+        [
+          "LX/0caa;",
+          "public final run()V"
+        ],
+        [
+          "LX/0ckr;",
+          "public final call()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0clp;",
+          "public final run()V"
+        ],
+        [
+          "LX/0czm;",
+          "public final run()V"
+        ],
+        [
+          "LX/0dVO;",
+          "public final A00(Landroid/content/Context;Landroid/view/ViewGroup;LX/0fYL;LX/0dpT;LX/0Wy8;LX/0gEa;)V"
+        ],
+        [
+          "LX/0dcF;",
+          "public final toString()Ljava/lang/String;"
+        ],
+        [
+          "LX/0hV2;",
+          "public static final A02(LX/0hV2;Ljava/lang/String;)V"
+        ],
+        [
+          "LX/0hls;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0kMz;",
+          "public final F61(Landroid/view/View;)V"
+        ],
+        [
+          "LX/0kg6;",
+          "public final A00()V"
+        ],
+        [
+          "LX/0lnF;",
+          "public final run()V"
+        ],
+        [
+          "LX/0loL;",
+          "public final run()V"
+        ],
+        [
+          "LX/0mfH;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0mfN;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0mkF;",
+          "public final bridge synthetic invoke()Ljava/lang/Object;"
+        ],
+        [
+          "LX/0ofh;",
+          "public final run()V"
+        ],
+        [
+          "LX/0poK;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/0rfj;",
+          "public final onClick(Landroid/view/View;)V"
+        ],
+        [
+          "Lcom/facebook/fbavatar/cdsavatareditor/richavatarretextureview/impl/AvatarRetextureSparkPreviewController;",
+          "public final A01(Landroid/widget/FrameLayout;LX/000Y;LX/0UIS;LX/02eh;LX/074x;LX/0haL;LX/01V6;)Ljava/lang/Object;"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/ArchiveReelFragment;",
+          "public final F1U(LX/0aCP;LX/04dn;Ljava/util/List;IZ)V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/ArchiveReelFragment;",
+          "public final Fc9(Ljava/lang/String;Z)V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/ArchiveReelFragment;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/ArchiveReelFragment;",
+          "public final onPause()V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/ArchiveReelFragment;",
+          "public final onResume()V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/ArchiveReelFragment;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/ArchiveReelFragment;",
+          "public static final A02(Lcom/instagram/archive/fragment/ArchiveReelFragment;)V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/ArchiveReelFragment;",
+          "public static final A03(Lcom/instagram/archive/fragment/ArchiveReelFragment;)V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/ArchiveReelFragment;",
+          "public static final A07(Lcom/instagram/archive/fragment/ArchiveReelFragment;Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/InlineAddHighlightFragment;",
+          "private final A04(Ljava/lang/Integer;)V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/InlineAddHighlightFragment;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/archive/fragment/InlineAddHighlightFragment;",
+          "public static final A00(Lcom/instagram/archive/fragment/InlineAddHighlightFragment;)V"
+        ],
+        [
+          "Lcom/instagram/base/activity/BaseFragmentActivity;",
+          "private final A19(LX/01sc;)V"
+        ],
+        [
+          "Lcom/instagram/business/fragment/InviteFollowersV2Fragment;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/business/fragment/ProfileDisplayOptionsFragment;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "Lcom/instagram/business/fragment/ProfileDisplayOptionsFragment;",
+          "public static final A03(Lcom/instagram/business/fragment/ProfileDisplayOptionsFragment;Lcom/instagram/igds/components/switchbutton/IgdsSwitch;Ljava/lang/Integer;Z)V"
+        ],
+        [
+          "Lcom/instagram/contentprovider/FamilyAppsUserValuesProvider;",
+          "private final A00()Landroid/database/MatrixCursor;"
+        ],
+        [
+          "Lcom/instagram/contentprovider/FamilyAppsUserValuesProvider;",
+          "public final query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;"
+        ],
+        [
+          "Lcom/instagram/direct/inbox/notes/ui/NoteAvatarView;",
+          "private final A01(Lcom/instagram/direct/inbox/notes/models/domain/notecustomtheme/NoteCustomTheme;)V"
+        ],
+        [
+          "Lcom/instagram/direct/inbox/notes/ui/NoteAvatarView;",
+          "public final A0H(Lcom/instagram/api/schemas/GIFNoteResponseInfo;Z)V"
+        ],
+        [
+          "Lcom/instagram/direct/locationsharing/service/DirectLiveLocationService;",
+          "private final A05(Ljava/lang/String;)V"
+        ],
+        [
+          "Lcom/instagram/direct/share/handler/DirectExternalMediaShareActivity;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/direct/share/handler/DirectShareHandlerActivity;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/inappbrowser/actions/BrowserActionActivity;",
+          "public final onStart()V"
+        ],
+        [
+          "Lcom/instagram/mainactivity/LauncherActivity;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/ml/remotepresence/RpModelDownloadManager;",
+          "public final A02(Ljava/util/List;LX/0haL;)Ljava/lang/Object;"
+        ],
+        [
+          "Lcom/instagram/nux/fragment/AddProfilePhotoFragment;",
+          "public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;"
+        ],
+        [
+          "Lcom/instagram/nux/fragment/AddProfilePhotoFragment;",
+          "public static final A00(Lcom/instagram/nux/fragment/AddProfilePhotoFragment;Ljava/lang/String;LX/0haL;)Ljava/lang/Object;"
+        ],
+        [
+          "Lcom/instagram/nux/impl/dynamicflow/onboarding/OnboardingActivity;",
+          "public final A2N(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/nux/impl/dynamicflow/onboarding/OnboardingActivity;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/profile/actionbar/ProfileActionBar;",
+          "public final A00(Lcom/instagram/common/session/UserSession;Landroid/app/Activity;LX/09N8;LX/09WX;Landroid/content/Context;Lkotlin/jvm/functions/Function1;)V"
+        ],
+        [
+          "Lcom/instagram/rtc/service/OngoingCallServiceWithMic;",
+          "public static final A01(Landroid/app/Notification;Lcom/instagram/rtc/service/OngoingCallServiceWithMic;)V"
+        ],
+        [
+          "Lcom/instagram/urlhandlers/avatar_viewer/AvatarViewerUrlHandlerActivity;",
+          "public final A2W(Landroid/os/Bundle;Landroid/os/Bundle;Lcom/instagram/common/session/UserSession;)V"
+        ],
+        [
+          "Lcom/instagram/urlhandlers/businesslinkmanagement/BusinessLinkManagementUrlHandlerActivity;",
+          "public final onAttachedToWindow()V"
+        ],
+        [
+          "Lcom/instagram/urlhandlers/fxcaligaccountscenter/FxCalIGAccountsCenterRedirectActivity;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/urlhandlers/horizonworlds/HorizonWorldsUrlHandlerActivity;",
+          "public final A2W(Landroid/os/Bundle;Landroid/os/Bundle;Lcom/instagram/common/session/UserSession;)V"
+        ],
+        [
+          "Lcom/instagram/wellbeing/fundraiser/coverphotopicker/FundraiserPhotoPickerGalleryTabFragment;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "private final A08(Landroid/content/Intent;Ljava/lang/String;Z)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "private final A0B(Lcom/instagram/creation/base/session/MediaSession;ZZ)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "private final A0F(Z)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final AZs()V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final Acq()V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final Cxk(Ljava/lang/String;)LX/09fn;"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final DrK()Lcom/instagram/common/session/UserSession;"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final EuA(Landroid/net/Uri;)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final EvG(LX/09fn;)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final FrS(Landroid/location/Location;LX/0Ipa;Ljava/lang/String;Ljava/lang/String;I)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final G3h(Ljava/lang/Integer;)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final Gfj(Ljava/lang/Runnable;)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final Gqc(Z)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final HZM(LX/09fn;)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final Hlo(LX/09fn;)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final bridge synthetic A1h()LX/01sc;"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final bridge synthetic DNY()LX/06c1;"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onAppBackgrounded()V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onAppForegrounded()V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onBackPressed()V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onDestroy()V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onKeyDown(ILandroid/view/KeyEvent;)Z"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onKeyUp(ILandroid/view/KeyEvent;)Z"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onResume()V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onStart()V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public final onStop()V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public static final A09(Landroid/location/Location;Landroid/net/Uri;Lcom/instagram/creation/base/cropinfo/CropInfo;Lcom/instagram/unifieddatamodel/gallery/MediaUploadMetadata;Lcom/instagram/unifieddatamodel/video/ProvenanceMetadata;Linstagram/features/creation/activity/MediaCaptureActivity;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap;II)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public static final A0A(Landroidx/fragment/app/Fragment;Linstagram/features/creation/activity/MediaCaptureActivity;)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public static final A0E(Linstagram/features/creation/activity/MediaCaptureActivity;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;ZZ)V"
+        ],
+        [
+          "Linstagram/features/creation/activity/MediaCaptureActivity;",
+          "public static final A0H(Linstagram/features/creation/activity/MediaCaptureActivity;)Z"
+        ],
+        [
+          "Linstagram/features/direct/fragment/icebreaker/ImportMsgrIceBreakersFragment;",
+          "public final onCreate(Landroid/os/Bundle;)V"
+        ],
+        [
+          "Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;",
+          "private final A06()V"
+        ],
+        [
+          "Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;",
+          "private final A0D(LX/0Tcn;)V"
+        ],
+        [
+          "Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;",
+          "public final A0T(Lcom/instagram/model/direct/DirectShareTarget;III)LX/0Tgk;"
+        ],
+        [
+          "Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;",
+          "public final A0U(LX/0IDe;Lcom/instagram/model/reels/ReelItem;)V"
+        ],
+        [
+          "Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;",
+          "public final A0V(LX/0N5M;)V"
+        ],
+        [
+          "Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;",
+          "public static final A0F(Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;)V"
+        ],
+        [
+          "Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;",
+          "public static final A0M(Linstagram/features/direct/fragment/recipientpicker/controller/DirectPrivateStoryRecipientController;Ljava/util/List;)V"
+        ],
+        [
+          "Linstagram/features/stories/fragment/ReelViewerFragment;",
+          "public final bridge synthetic Fvd(Ljava/lang/Object;)V"
+        ],
+        [
+          "Linstagram/features/stories/fragment/ReelViewerFragment;",
+          "public final onDestroy()V"
+        ],
+        [
+          "Linstagram/features/stories/fragment/ReelViewerFragment;",
+          "public static final A0s(Linstagram/features/stories/fragment/ReelViewerFragment;Ljava/lang/String;Z)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/DisableVideoAutoPlayHook.java",
+      "line": 48,
+      "kind": "method",
+      "anchors": [
+        "ig_disable_video_autoplay"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/014y;",
+          "public static final A00(Landroid/content/Context;LX/031I;Lcom/instagram/common/session/UserSession;LX/0McL;LX/05xX;LX/07lN;Z)V"
+        ],
+        [
+          "LX/016i;",
+          "public final A0o(LX/04nH;)LX/047e;"
+        ],
+        [
+          "LX/03b8;",
+          "public static final A00(Lcom/instagram/common/session/UserSession;)Z"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/StoryMentionHook.java",
+      "line": 73,
+      "kind": "method",
+      "anchors": [
+        "reel_mentions"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/06aG;",
+          "public final bridge synthetic unsafeParseFromJson(LX/0Ggy;)Ljava/lang/Object;"
+        ],
+        [
+          "LX/06aG;",
+          "public static A0q(LX/02z1;Ljava/util/List;)V"
+        ],
+        [
+          "LX/07jd;",
+          "public final A05(LX/02ak;[I)Ljava/util/Map;"
+        ],
+        [
+          "LX/07jd;",
+          "public static A02(Ljava/util/AbstractMap;LX/07jd;LX/02ak;)Ljava/util/Map;"
+        ],
+        [
+          "LX/0DvR;",
+          "public static final A02(LX/054Z;Lcom/instagram/common/session/UserSession;LX/0DwY;JZ)V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final A9U()Ljava/util/List;"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public final AK7(Ljava/util/List;)V"
+        ],
+        [
+          "Lcom/instagram/feed/media/Media;",
+          "public static constructor <clinit>()V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/StoryMentionHook.java",
+      "line": 94,
+      "kind": "method",
+      "anchors": [
+        "MentionTappableObject.user is null; dropping mention sticker"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/00bz;",
+          "public static final A0E(Ljava/util/List;)Ljava/util/List;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/StoryMentionHook.java",
+      "line": 142,
+      "kind": "method",
+      "anchors": [
+        "[INTERNAL] Pause Playback"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0ZHj;",
+          "public final A0q(Landroid/content/Context;Landroid/content/DialogInterface$OnDismissListener;Landroid/view/View;LX/031I;LX/0ngw;LX/03S4;LX/0Ngo;LX/0gkm;LX/0fa2;LX/01P3;LX/01N4;LX/01K4;LX/01O5;LX/01O1;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0E(Landroid/content/Context;LX/0G29;Lcom/instagram/model/reels/ReelItem;LX/0ZHj;LX/01K4;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0F(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/0faX;LX/0fAY;LX/0fAZ;LX/0Ngo;LX/0fa1;LX/0fa3;LX/0ZHj;LX/0Mjx;LX/01LX;LX/01K0;LX/01P3;LX/01K5;LX/01K4;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0H(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/0faX;LX/0Ngo;LX/0fa3;LX/0ZHj;LX/01N1;LX/0Mjx;LX/01K0;LX/01K4;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0I(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/03S4;LX/0Ngo;LX/0gkm;LX/0fa2;LX/0ZHj;LX/01P3;LX/01N4;LX/01K4;LX/01O5;LX/01O1;Ljava/lang/CharSequence;)V"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0n(LX/03cH;LX/0ZHj;LX/0Mjx;)[Ljava/lang/CharSequence;"
+        ],
+        [
+          "LX/0ZHj;",
+          "public static final A0p(LX/0ZHj;)[Ljava/lang/CharSequence;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/misc/StoryMentionHook.java",
+      "line": 187,
+      "kind": "method",
+      "anchors": [
+        "explore_viewer",
+        "friendships/mute_friend_reel/%s/",
+        "[INTERNAL] Pause Playback"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0ZHj;",
+          "public static final A0I(Landroid/content/DialogInterface$OnDismissListener;LX/031I;LX/03S4;LX/0Ngo;LX/0gkm;LX/0fa2;LX/0ZHj;LX/01P3;LX/01N4;LX/01K4;LX/01O5;LX/01O1;Ljava/lang/CharSequence;)V"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ui/DisableRepostHook.java",
+      "line": 41,
+      "status": "INDIRECT_QUERY_MANUAL_REVIEW",
+      "candidates": null
+    },
+    {
+      "file": "mods/ui/RemoveMetaAIHook.java",
+      "line": 188,
+      "status": "INDIRECT_QUERY_MANUAL_REVIEW",
+      "candidates": null
+    },
+    {
+      "file": "mods/ui/RemoveMetaAIHook.java",
+      "line": 225,
+      "kind": "method",
+      "anchors": [
+        "android_purge_26_q2_ClipsTopSerpDataSource_createDefaultMetaAIHcmFetchResults"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0mqY;",
+          "public final bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ui/RemoveMetaAIHook.java",
+      "line": 250,
+      "status": "INDIRECT_QUERY_MANUAL_REVIEW",
+      "candidates": null
+    },
+    {
+      "file": "mods/ui/RemoveMetaAIHook.java",
+      "line": 286,
+      "kind": "method",
+      "anchors": [
+        "android_purge_26_q3_MetaAIVideoAttributionSubtitleUseCase_getUiState"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/03JU;",
+          "public static final A00(Lcom/instagram/feed/media/Media;)LX/0WvI;"
+        ]
+      ]
+    },
+    {
+      "file": "mods/ui/utils/BottomSheetHookUtil.java",
+      "line": 26,
+      "kind": "method",
+      "anchors": [
+        "BottomSheetConstants"
+      ],
+      "status": "ANCHORS_PRESENT",
+      "candidates": [
+        [
+          "LX/0000;",
+          "public static A00(I)Ljava/lang/String;"
+        ],
+        [
+          "LX/00MT;",
+          "public final A0M(Landroid/os/Bundle;Z)V"
+        ],
+        [
+          "LX/02bI;",
+          "public final A00(Landroid/app/Activity;Lcom/instagram/common/session/UserSession;LX/0Pim;Lcom/instagram/quickpromotion/intf/QuickPromotionSlot;Lkotlin/jvm/functions/Function0;)V"
+        ],
+        [
+          "LX/04e4;",
+          "public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V"
+        ],
+        [
+          "Lcom/instagram/base/activity/IgFragmentActivity;",
+          "public BZI()LX/03yZ;"
+        ],
+        [
+          "Lcom/instagram/mainactivity/InstagramMainActivity;",
+          "public final BZI()LX/03yZ;"
+        ]
+      ]
+    }
+  ],
+  "android_runtime_tests": 0
+}

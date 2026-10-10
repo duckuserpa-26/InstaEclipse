@@ -1,0 +1,16 @@
+{
+  "version": "0.7.0-relations.3-IG450-dev5",
+  "versionCode": 72,
+  "apk": "deliverables/InstaEclipse-IG450-dev5-profilo.apk",
+  "sha256": "e4350e7924032a6a12e96531fda7304ed24218c28934398cff5f970105c8818d",
+  "static_checks": 179,
+  "jvm_previous": 122,
+  "jvm_profile_stability": 17,
+  "jvm_total": 139,
+  "android_runtime_tests": 0,
+  "reported_failure": "BadTokenException token null in showForAvatar; HD image resolved",
+  "crash_root_cause_confirmed": false,
+  "signature_verified_api": 33,
+  "signed_dex_matches_tested": true,
+  "assets_and_native_libraries_unchanged": true
+}

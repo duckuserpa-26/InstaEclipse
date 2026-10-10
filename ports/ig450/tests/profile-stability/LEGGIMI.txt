@@ -1,0 +1,41 @@
+InstaEclipse IG450 dev5 — correzione finestra foto profilo
+Versione: 0.7.0-relations.3-IG450-dev5, codice 72.
+Destinazione: Instagram 450.0.0.50.77 (385611438), Android 13, Vector 2.2.
+
+EVIDENZA DEL TELEFONO
+Il log inviato dall'utente mostra in showForAvatar:
+android.view.WindowManager$BadTokenException: Unable to add window -- token null is not valid; is your activity running?
+La risoluzione dell'utente e della foto HD era già riuscita. L'errore avviene aprendo il menu.
+L'estratto non contiene lo stack fatale del crash intermittente: la sua causa non è confermata.
+
+CORREZIONE
+Menu e anteprima usano ora l'Activity proprietaria della View, ricavata dal Context o dall'Activity che ha ricevuto il tocco. Controlli su View collegata, token, Activity non distrutta/non in chiusura e appartenenza alla finestra. Il menu usa un tema Android esplicito.
+I callback di annullamento gesto, apertura storie, download, esito download e chiusura WebView proteggono il thread chiamante dalle eccezioni; viene registrata la fase dell'errore. La diagnostica conserva classi e stack delle cause senza stampare URL o dati dell'account e non rilancia errori di logging/Toast.
+La stringa fissa loaded=dev1 nel log di Module è stata corretta in dev5: non era una misurazione affidabile della build caricata. I messaggi dev3 relativi all'installazione dell'osservatore restano etichette storiche di quel componente.
+Tutte le modifiche dev4 sono incluse. Firma uguale alle precedenti build ricostruite.
+
+VERIFICHE E LIMITI
+139 test/assertion JVM riusciti: 122 precedenti + 17 mirati. 179 controlli statici riusciti.
+I 9 scenari iniziali applicabili anche alla dev4 fallivano prima della correzione; 17 scenari passano sulla dev5. I test simulano Activity/View/finestre e guasti dei callback; non sono un dispositivo Android.
+Verificati menu, Activity proprietaria, anteprima, URL passato alla WebView, token mancante, View scollegata, Activity chiusa/distrutta, finestra diversa, eccezioni dei callback, diagnostica e protezione da errori di Toast/log.
+Non sono verificati su Android/ART/Vector: interazione reale, rendering WebView, download in rete, comportamento server, crash intermittente e tutte le combinazioni di funzionalità. Test runtime Android eseguiti: ZERO. Non è una garanzia di funzionamento al 100%.
+Firma verificata per API 33; DEX dell'APK firmato uguale a quello testato; ZIP integro; allineamento verificato; assets e librerie native uguali alla dev4.
+
+INSTALLAZIONE E PROVA
+Aggiornare il modulo con l'APK dev5. Mantenere attivo lo scope Instagram in Vector. Riavviare il telefono per ricaricare il modulo.
+Aprire un profilo e verificare separatamente pressione prolungata, foto a schermo intero, Storie / anteprima Instagram e download.
+Se compare un errore, inviare il nuovo log del modulo e la fase indicata dal messaggio.
+Se Instagram crasha ancora, subito dopo eseguire in Termux:
+su -c 'logcat -b crash -d -v threadtime > /sdcard/Download/instagram-crash.txt'
+Allegare instagram-crash.txt da Download e il log InstaEclipse/Vector.
+
+SORGENTI
+Questo ZIP è un overlay cumulativo rispetto a InstaEclipse-0.7.0-relations.2-IG449-source.zip, già fornito. Applicare i file in candidate/.../apktool-source sopra la sorgente apktool della baseline. La sorgente autorevole è Smali; il Java decompilato della baseline resta un riferimento e non rappresenta tutte le patch.
+Nuovo helper autorevole: candidate/java450/.../ProfileUi450.java.
+profile-stability/ contiene patch riproducibile, fixture, test e report della dev5. Gli altri risultati sono storici delle versioni precedenti.
+profile-stability/build.sh richiede gli strumenti già usati (JDK, apktool 2.12.1, dex-tools 2.4, fixture port-tests); rigenera il helper, applica le modifiche e forza una ricompilazione completa. Non usare la sola build incrementale: durante il lavoro aveva riutilizzato il vecchio classes3.dex. Il contenuto dell'APK finale è stato verificato dopo la build forzata.
+profile-stability/run_tests.sh verifica l'APK dev5 non firmato. La chiave di firma e i binari degli strumenti non sono inclusi in questo overlay.
+
+Riferimenti API usati:
+https://developer.android.com/reference/android/app/AlertDialog
+https://developer.android.com/reference/android/view/View

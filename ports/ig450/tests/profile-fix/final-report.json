@@ -1,0 +1,13 @@
+{
+  "apk": "InstaEclipse-IG450-dev3-profilo.apk",
+  "sha256": "c100a0ae6618fbf432f8e751b35789925cd987dd52d7231cddd168980cf5004d",
+  "profile_jvm_assertions": 17,
+  "existing_jvm_assertions": 61,
+  "profile_static_contracts": 12,
+  "existing_static_contracts": 141,
+  "zip_crc_ok": true,
+  "tested_dex_equals_signed_dex": true,
+  "aligned_stored_entries": 327,
+  "android_runtime_tests": 0,
+  "status": "TEST_BUILD"
+}

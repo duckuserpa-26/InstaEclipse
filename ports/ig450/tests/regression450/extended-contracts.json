@@ -1,0 +1,186 @@
+[
+  {
+    "check": "Story cache expiring_at Long getter",
+    "passed": true,
+    "candidates": [
+      "Lcom/instagram/feed/media/Media; public final A6r()Ljava/lang/Long;"
+    ]
+  },
+  {
+    "check": "Caption getter on Media",
+    "passed": true,
+    "candidates": [
+      "Lcom/instagram/feed/media/Media; public final A36()LX/02Kx;"
+    ]
+  },
+  {
+    "check": "Story mentions raw list getter",
+    "passed": true,
+    "candidates": [
+      "Lcom/instagram/feed/media/Media; public final A9U()Ljava/util/List;"
+    ]
+  },
+  {
+    "check": "Story mention converter",
+    "passed": true,
+    "candidates": [
+      "LX/00bz; public static final A0E(Ljava/util/List;)Ljava/util/List;"
+    ]
+  },
+  {
+    "check": "Carousel list getter",
+    "passed": true,
+    "candidates": [
+      "Lcom/instagram/feed/media/Media; public final A8n()Ljava/util/List;"
+    ]
+  },
+  {
+    "check": "Video versions list getter",
+    "passed": true,
+    "candidates": [
+      "Lcom/instagram/feed/media/Media; public final AAk()Ljava/util/List;"
+    ]
+  },
+  {
+    "check": "Legacy ephemeral/tracker query is absent; explicit port required",
+    "passed": true,
+    "candidates": [
+      "confirmed absent"
+    ]
+  },
+  {
+    "check": "Timed ephemeral deletion method",
+    "passed": true,
+    "candidates": [
+      "public final declared-synchronized A0Z(Z)Z"
+    ]
+  },
+  {
+    "check": "Timed deletion removes expired disappearing messages",
+    "passed": true,
+    "candidates": [
+      "semantic match"
+    ]
+  },
+  {
+    "check": "Direct fragment lifecycle onResume",
+    "passed": true,
+    "candidates": [
+      "public final onResume()V"
+    ]
+  },
+  {
+    "check": "Direct fragment lifecycle onPause",
+    "passed": true,
+    "candidates": [
+      "public final onPause()V"
+    ]
+  },
+  {
+    "check": "Direct fragment controller",
+    "passed": true,
+    "candidates": [
+      ".field public A02:LX/01TB;"
+    ]
+  },
+  {
+    "check": "Direct controller thread key getter",
+    "passed": true,
+    "candidates": [
+      "public final A0E()Lcom/instagram/model/direct/DirectThreadKey;"
+    ]
+  },
+  {
+    "check": "Ephemeral server-ping void hook",
+    "passed": true,
+    "candidates": [
+      "LX/05tj; public final bridge synthetic Gsm(LX/02ml;LX/0Tcq;LX/02Oe;)V"
+    ]
+  },
+  {
+    "check": "Hidden chat inbox list getter",
+    "passed": true,
+    "candidates": [
+      "LX/00BW; public final A0R(LX/00GN;LX/03Sl;Ljava/util/Comparator;Ljava/util/List;Z)Ljava/util/ArrayList;",
+      "LX/00BW; public final A0S(Ljava/util/List;)Ljava/util/ArrayList;"
+    ]
+  },
+  {
+    "check": "View-once badge constructor",
+    "passed": true,
+    "candidates": [
+      "LX/0D0w; public constructor <init>(LX/04ME;LX/04LZ;LX/0D13;Lcom/instagram/direct/thread/analytics/DirectThreadAnalyticsParams;LX/0Cay;Lcom/instagram/direct/wellbeing/harmfulcontent/ondevicenudity/view/data/PrivacyMediaOverlayViewModel;Ljava/lang/String;Ljava/lang/String;ZZZZZ)V"
+    ]
+  },
+  {
+    "check": "Build-expiry boolean fallback",
+    "passed": true,
+    "candidates": [
+      "LX/00qv; public final A04()Z",
+      "LX/00qv; public final A05()Z"
+    ]
+  },
+  {
+    "check": "com.instagram.common.ui.widget.imageview.IgProgressImageView.onAttachedToWindow",
+    "passed": true,
+    "candidates": [
+      "public final onAttachedToWindow()V"
+    ]
+  },
+  {
+    "check": "com.instagram.common.ui.widget.imageview.IgProgressImageView.getIgImageView",
+    "passed": true,
+    "candidates": [
+      "public final getIgImageView()Lcom/instagram/common/ui/widget/imageview/IgImageView;"
+    ]
+  },
+  {
+    "check": "com.instagram.api.schemas.VideoVersionIntf.getUrl",
+    "passed": true,
+    "candidates": [
+      "public abstract getUrl()Ljava/lang/String;"
+    ]
+  },
+  {
+    "check": "Comment menu signature",
+    "passed": true,
+    "candidates": [
+      "public final G8w(Ljava/lang/String;Ljava/lang/String;FZ)V"
+    ]
+  },
+  {
+    "check": "Comment menu repository field",
+    "passed": true,
+    "candidates": [
+      ".field public A0E:Lcom/instagram/comments/mvvm/data/MediaCommentListRepository;"
+    ]
+  },
+  {
+    "check": "Comment resolver called by menu",
+    "passed": true,
+    "candidates": [
+      "invoke-static {v0, v9, v10}, LX/0Aqw;->A01(LX/0Am5;Ljava/lang/String;Ljava/lang/String;)LX/0BMi;"
+    ]
+  },
+  {
+    "check": "Username getter reads username hash (-265713450)",
+    "passed": true,
+    "candidates": [
+      "User.A89"
+    ]
+  },
+  {
+    "check": "ProfilePicturePreviewHook.smali uses semantic username getter",
+    "passed": true,
+    "candidates": [
+      "A89"
+    ]
+  },
+  {
+    "check": "InstantNativeMenuHook$Bindings.smali uses semantic username getter",
+    "passed": true,
+    "candidates": [
+      "A89"
+    ]
+  }
+]

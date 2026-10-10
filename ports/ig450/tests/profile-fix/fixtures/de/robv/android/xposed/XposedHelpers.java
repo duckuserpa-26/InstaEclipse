@@ -1,0 +1,1 @@
+package de.robv.android.xposed;public class XposedHelpers {public static Object callMethod(Object o,String n,Object... a){try{return o.getClass().getMethod(n).invoke(o,a);}catch(Exception e){throw new RuntimeException(e);}} public static Object getObjectField(Object o,String n){throw new UnsupportedOperationException();}}

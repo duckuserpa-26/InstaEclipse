@@ -1,0 +1,74 @@
+INSTA ECLIPSE IG450 - CHECKPOINT DI SVILUPPO 1
+10 ottobre 2026
+
+Destinazione comunicata dall'utente: Android 13, Vector 2.2.
+Stato: port parziale. Nessun APK viene distribuito in questo archivio.
+
+MODIFICHE IMPLEMENTATE NELLA COPIA DI LAVORO
+- LikeDelay: nuovo profilo per nome versione 450.0.0.50.77 E versionCode
+  385611438; store X.00hD, parent X.0FJM, action X.0XGx, manager X.00hB.
+  Rimangono i profili precedenti 448 e 449 e il rifiuto delle build sconosciute.
+- DoubleTap: profilo 450 con feed X.0YGg.A01, Pando X.0E13.A05,
+  callback X.0C0d.invoke, Unit X.00DR.A00, gesture X.08BW.onDoubleTap.
+  Il callback seleziona il caso 6 su 450, conservando il caso 4 su 449.
+- is450 e' distinto da is449: gli altri hook non vengono forzati a usare
+  accidentalmente le vecchie classi 449.
+- Revisione cache DexKit aggiornata per eliminare risoluzioni obsolete.
+- Build interna 69 / 0.7.0-relations.3-IG450-dev1, esplicitamente di sviluppo.
+
+VERIFICHE ESEGUITE
+- Ricompilazione completa con Apktool 2.12.1: riuscita.
+- Lettura del DEX ricompilato con JADX 1.5.6: controllati i nuovi rami di
+  versione, i mapping e la condizione 6/4 del callback.
+- 27 controlli dei contratti sulle classi del base.apk di Instagram: superati.
+  Comprendono firme, tipi dei campi e punti di scrittura dell'azione like.
+- 14 test della coda con store e timer simulati: superati. Vengono eseguiti
+  sulla classe convertita dal DEX candidato, non su una riscrittura della coda.
+  Coprono attesa, flag OFF, annullamento, richiesta in flight, ripetizione,
+  media indipendenti, ripristino, clock futuro, logout, sostituzione esterna,
+  errori di scheduler/enqueue/restore e limiti del ritardo.
+- Vector: verificata la presenza di deoptimizeMethod(Member), con ritorno
+  void, nel sorgente del tag ufficiale v2.2:
+  https://github.com/JingMatrix/Vector/blob/v2.2/legacy/src/main/java/de/robv/android/xposed/XposedBridge.java
+
+LIMITI DEI TEST
+La conversione dex2jar 2.4 non produce gli stack-map frame richiesti dalla
+versione JVM iniziale del JAR: il primo avvio ha quindi restituito VerifyError.
+Per il test JVM e' stato usato il class-version-switch di dex2jar con target
+Java 6 (class version 50), mantenendo java -Xverify:all attivo. Il DEX Android
+non e' stato alterato da questa conversione. Non e' una verifica ART.
+Un primo controllo del campo $t e' fallito per un errore nella regex del
+verificatore, corretto riconoscendo anche i nomi che iniziano con $.
+JADX produce ancora artefatti Java non compilabili in alcuni file: lo Smali
+rimane il sorgente canonico di questa ricostruzione.
+L'API di Vector e' verificata nel sorgente, non sul telefono dell'utente.
+
+APERTO / BLOCCANTE PER IL RILASCIO
+- Relazioni: ancora non portato; il controllo originale limita la funzione a 449.
+- Instants: mapping e profili non ancora portati a 450.
+- Verifica funzionale completa delle altre funzioni originali e personalizzate.
+- Nessun test su Android 13/Vector 2.2, nessuna installazione, nessuna prova
+  dell'effetto lato server, della deottimizzazione ART o dei conflitti tra hook.
+- Il risultato della build non e' firmato ne' approvato per l'uso.
+I test locali superati NON implicano compatibilita' completa o garanzia al 100%.
+
+CONTENUTO E RIPRESA
+Questo checkpoint contiene un overlay e un diff dei soli 8 file sorgente
+modificati, insieme ai test e ai risultati. Non contiene APK, chiavi di firma
+o una copia completa di Instagram.
+Base necessaria: InstaEclipse-0.7.0-relations.2-IG449-source.zip.
+Applicare overlay/ sopra apktool-source/ della base in una copia di lavoro.
+Il report precedente InstaEclipse-IG450-audit.zip conserva l'inventario generale.
+Non sostituire la base originale e non pubblicare la build di sviluppo.
+
+COMANDI DI TEST (dalla cartella di lavoro originaria)
+python3 port-tests/check_bindings.py
+java -m jdk.compiler/com.sun.tools.javac.Main -cp candidate/classes3-jvm.jar
+     -d port-tests/classes port-tests/LikeDelayQueueTest.java
+bash tools/dex-tools-v2.4/d2j-class-version-switch.sh 6
+     candidate/classes3-jvm.jar candidate/classes3-jvm-v50.jar
+java -Xverify:all -cp port-tests/classes:candidate/classes3-jvm-v50.jar LikeDelayQueueTest
+
+Per ricreare il JAR di test: estrarre classes3.dex dalla build ottenuta con
+Apktool, poi eseguire d2j-dex2jar.sh -f -o candidate/classes3-jvm.jar
+candidate/classes3.dex. I tool e l'APK di Instagram non sono inclusi.

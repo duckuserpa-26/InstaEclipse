@@ -1,0 +1,109 @@
+InstaEclipse IG450 dev4 — revisione delle funzionalità
+
+Target esatto: Instagram 450.0.0.50.77, versionCode 385611438.
+Modulo: 0.7.0-relations.3-IG450-dev4, versionCode 71.
+Ambiente richiesto dall'utente: Android 13, root, Vector 2.2.
+Stato: BUILD DI COLLAUDO; nessuna esecuzione Android automatizzata disponibile.
+Il riscontro dell'utente sulla foto profilo della dev3 è positivo ma generico:
+non è una verifica registrata di ogni voce del menu o delle altre funzionalità.
+
+SEI PROBLEMI INDIVIDUATI E CORRETTI
+1. "Reel solo nei DM" terminava anticipatamente l'intercettore di rete per
+   qualsiasi richiesta direct_v2. Saltava sia protezioni ghost già selezionate
+   sia filtri successivi. L'eccezione ora riguarda solo il filtro dei Reel.
+2. Disattivazione storie: un ramo cercava il parametro ?visual_message dentro
+   URI.getPath(), dove la query non può comparire. Ora path e query sono
+   controllati separatamente, con confini del nome parametro e ordine libero.
+3. "Ti segue": lettura delle risposte limitata ai ByteBuffer con array accessibile;
+   mancava inoltre il caso String. Ora gestisce buffer diretti, in sola lettura,
+   slice, intervallo corrente e buffer a fine scrittura, senza modificarne la
+   posizione. La copia dei buffer è limitata a 1 MiB; fallimenti di reflection
+   su un singolo campo non interrompono tutta l'ispezione.
+4. Nome utente nei download di profili e Instants: il riferimento A79 aveva il
+   giusto tipo String ma non era il getter username. Su questa build il getter
+   corretto è A89, verificato dal codice che legge l'hash della proprietà
+   username (-265713450). Corrette entrambe le posizioni e rafforzati i test.
+5. Conservazione messaggi effimeri: la vecchia query igThreadIgid + parametri
+   DirectThreadKey,boolean non trova alcun metodo compatibile su IG450.
+   Nuovo aggancio alla rimozione temporizzata X.04k3.A0Z(boolean): con flag
+   attivo restituisce false per la scadenza temporizzata. Il percorso nativo
+   di rimozione forzata viene lasciato attivo. Firma e codice di eliminazione
+   verificati staticamente; persistenza effettiva dei messaggi non collaudata.
+6. Tracciamento della chat per il registro dei messaggi ritirati: usava la stessa
+   query assente. Ora segue onResume/onPause del DirectThreadFragment X.01Sn,
+   legge il controller A02, il getter A0E e il thread ID A00. Cancella il dato
+   quando si lascia la chat e non permette al pause di una vecchia schermata
+   di cancellare il riferimento a una nuova chat.
+
+La revisione della cache è stata aggiornata. Le correzioni dev2/dev3 rimangono.
+I nuovi hook della chat sono selezionati soltanto dal profilo Instagram 450.
+
+EVIDENZA E RISULTATI
+- 22 asserzioni di rete: prima della correzione 6 fallivano, dopo passano tutte.
+- 13 asserzioni di estrazione payload: prima 8 fallivano, dopo passano tutte.
+  Alcuni errori prima della correzione dipendono anche dai vincoli di reflection
+  della JVM desktop: non equivalgono a crash Android riprodotti sul telefono.
+- 9 asserzioni per registrazione dei contratti chat, ciclo di vita, cambio chat,
+  flag OFF/ON, rimozione temporizzata e rimozione forzata.
+- 78 verifiche precedenti ripetute (incluse le 17 sul gesto profilo): passate.
+- Totale: 122 asserzioni JVM; 179 controlli statici, alcuni sovrapposti fra suite.
+  Questi numeri NON rappresentano 122/179 funzionalità Android collaudate.
+- Costruzione APK, firma API33, CRC ZIP, allineamento e identità del DEX testato
+  rispetto al DEX incluso nell'APK firmato verificati.
+- Zero prove automatiche su Android/ART/Vector, rete reale o account Instagram.
+
+AMPIEZZA DEL CONTROLLO
+L'inventario generale comprende 131 file Java del modulo e 37 voci del riepilogo
+funzionalità; 83 campi di configurazione includono opzioni e parametri.
+Sono stati riesaminati i riferimenti diretti, i rami di versione e 59 punti di
+ricerca dei resolver: 52 hanno i marker richiesti presenti, 2 sono fallback
+legacy sostituiti dal profilo 450, 5 dipendono da variabili e richiedono lettura
+del codice. I marker presenti NON dimostrano una query DexKit eseguita o un
+effetto funzionale. Il controllo delle firme ha trovato la query effimeri/chat
+incompatibile nonostante il marker igThreadIgid fosse ancora presente.
+Un controllo iniziale sulla lista chat richiedeva erroneamente il tipo List
+esatto: il metodo restituisce ArrayList, compatibile con il callback esistente.
+Corretto il verificatore; non era un difetto del modulo.
+
+Famiglie riesaminate:
+- Media: resolver video/carousel, menu download, cache storie, foto profilo,
+  qualità Reel, Instants (upload/replay/audio/navigazione), copia e menzioni.
+- Privacy/chat: seen, typing, screenshot, storie/live, effimeri, ritirati,
+  modalità permanente, chat nascoste e blocco DM.
+- Feed/UI: pubblicità, suggerimenti, Meta AI/repost, autoplay, doppio tap,
+  ritardo like, zoom, font/emoji/tema, opzioni sviluppatore e blocco scadenza.
+- Rete e account: filtri combinati, tracking link, follower, relazioni,
+  presenza e posizione. Alcuni percorsi usano euristiche o fallback dinamici.
+Per l'elenco dettagliato dei marker e delle firme vedere discovery-coverage.json,
+extended-contracts.json e gli inventari precedenti. Non è un audit formale
+esaustivo di ogni combinazione di impostazioni o variante lato server.
+
+COLLAUDO ANCORA NECESSARIO
+Su dispositivo: funzionalità con flag OFF/ON, cambio account, avvio a freddo,
+cache calda e ritorno dal background. Verificare download completi e audio,
+upload completato e ritentativi, menu, cache, layout e salvataggi reali.
+Ghost/live/presenza e letture richiedono confronto da un secondo account di
+prova: un indicatore "hooked" o l'assenza di un errore locale non provano
+l'effetto sul server. La conservazione di messaggi richiede prove di scadenza,
+ritiro, riapertura chat e riavvio. Nessuna garanzia al 100% è giustificata.
+
+SORGENTI E RIPRODUZIONE
+Archivio cumulativo da applicare al sorgente baseline IG449 già fornito.
+Smali in candidate/.../apktool-source è il sorgente autorevole. Il nuovo
+DirectCompatibility450.java è incluso in candidate/java450. Gli script
+apply_fixes.py e le copie before documentano questa revisione; gli script
+precedenti appartengono alle rispettive revisioni e non vanno riapplicati
+sopra la dev4. Chiavi di firma e tool non sono duplicati qui.
+
+Build:
+java -jar tools/apktool.jar b candidate/InstaEclipse-0.7.0-relations.2-IG449-source/apktool-source -o candidate/instaeclipse-450-dev4-unsigned.apk
+
+Test: bash regression450/run_tests.sh
+Richiede il workspace di analisi/test delle revisioni precedenti (Java17,
+apktool2.12.1, dex-tools2.4, base.apk decodificato e classi fixture preparate).
+RecomputeMax ricalcola solo metadati JVM del convertitore; non altera l'APK.
+Le fixture simulano tipi, callback e viste, NON Instagram/Android/Vector.
+Non includere mai le fixture o gli stub compilati nell'APK.
+
+Installare l'APK sopra dev3 e riavviare il telefono per ricaricare gli hook.
+Firma: stessa chiave di ricostruzione delle build precedenti.

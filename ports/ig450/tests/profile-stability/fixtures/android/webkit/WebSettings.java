@@ -1,0 +1,1 @@
+package android.webkit;public class WebSettings {public void setJavaScriptEnabled(boolean b){}public void setBuiltInZoomControls(boolean b){}public void setDisplayZoomControls(boolean b){}public void setLoadWithOverviewMode(boolean b){}public void setUseWideViewPort(boolean b){}}

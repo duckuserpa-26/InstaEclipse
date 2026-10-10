@@ -1,0 +1,7 @@
+[
+  "smali_classes3/ps/reso/instaeclipse/mods/media/InstantEdgeNavigationHook.smali",
+  "smali_classes3/ps/reso/instaeclipse/mods/media/InstantUpload450.smali",
+  "smali_classes3/ps/reso/instaeclipse/mods/media/InstantReplayCore.smali",
+  "smali_classes3/ps/reso/instaeclipse/mods/misc/LikeDelayHook.smali",
+  "smali_classes3/ps/reso/instaeclipse/mods/relations/RelationCollector.smali"
+]

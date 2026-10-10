@@ -1,0 +1,11 @@
+{
+  "suite": "LikeDelayQueueTest",
+  "executed_code": "Candidate classes3.dex converted by dex2jar 2.4; JVM class version 50",
+  "jvm": "OpenJDK 17.0.20 with -Xverify:all",
+  "store": "simulated",
+  "clock_and_scheduler": "simulated",
+  "tests_passed": 14,
+  "tests_failed": 0,
+  "android_runtime_tests": 0,
+  "release_allowed": false
+}

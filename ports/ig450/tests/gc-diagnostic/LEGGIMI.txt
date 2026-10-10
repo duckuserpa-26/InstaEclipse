@@ -1,0 +1,30 @@
+InstaEclipse IG450 dev6-gcprobe — BUILD DIAGNOSTICA
+Versione 0.7.0-relations.3-IG450-dev6-gcprobe, codice 73.
+Destinazione: Instagram 450.0.0.50.77 (385611438), Android 13 + Vector 2.2.
+
+SCOPO E LIMITI
+L'utente ha confermato che i crash dipendono dal modulo. Il log instagram-crash.txt contiene nove arresti nativi del processo Instagram nel thread HeapTaskDaemon, SIGABRT, tutti con GC tried to mark invalid reference. L'unico frame nativo disponibile è libstartup.so +0x83b950, senza una catena che identifichi il chiamante responsabile. Nessuno stack Java fatale di Instagram. La causa specifica è ancora ignota.
+Questa build prova UNA ipotesi: interazione delle richieste esplicite di deottimizzazione del modulo con il runtime/Vector. NON è una correzione del crash dimostrata. Il risultato sul dispositivo è necessario prima di scegliere una modifica definitiva.
+
+DIFFERENZA RISPETTO ALLA DEV5
+Cinque risoluzioni reflection di XposedBridge.deoptimizeMethod(Member) ora puntano a DeoptDiagnostic450.deoptimizeMethod(Member), che registra SKIPPED e restituisce false senza chiamare il framework.
+Componenti: RelationCollector, InstantReplayCore, InstantUpload450, InstantEdgeNavigationHook e LikeDelayHook.
+Tutto il codice di registrazione degli hook è invariato, verificato confrontando le cinque classi con la dev5. Restano le correzioni di menu/anteprima profilo, finestre e callback della dev5.
+La registrazione invariata NON garantisce che tutti gli hook scattino: senza deottimizzazione, metodi ottimizzati/inlined potrebbero eluderli. In particolare ricontrollare raccolta relazioni, Instants e ritardo like. Questa build NON certifica la compatibilità di tutte le funzioni.
+Vector può ancora intervenire autonomamente sul runtime durante l'installazione degli hook. La prova isola soltanto le richieste ESPLICITE del modulo.
+
+PROVA RICHIESTA
+Installare l'aggiornamento, riattivare InstaEclipse in Vector con scope Instagram e riavviare il telefono. Usare le stesse funzioni che provocavano il crash, mantenendo le impostazioni precedenti per rendere confrontabile la prova.
+Provare almeno 45–60 minuti quando possibile: nel log gli arresti avvenivano da 102 a 2467 secondi dall'avvio del processo. Una sessione senza crash è un indizio, non una prova definitiva.
+Inviare il risultato e il log InstaEclipse/Vector (cercare GCProbe dev6 e SKIPPED).
+Se crasha, subito dopo eseguire in Termux:
+su -c 'logcat -b main -b system -b crash -d -v threadtime -t 12000 > /sdcard/Download/instagram-completo.txt'
+Allegare instagram-completo.txt dalla cartella Download. Non cambiare contemporaneamente framework o versione Instagram, altrimenti il confronto non isolerebbe questa modifica.
+
+VERIFICHE
+143 test/assertion JVM superati (139 precedenti + 4 probe). 190 controlli statici superati (179 precedenti + 11 isolamento). Firma verificata per Android 13/API33. ZIP integro, allineamento controllato, DEX firmato identico a quello testato, assets e librerie native identici alla dev5. Test Android/ART/Vector eseguiti qui: ZERO. Il crash nativo non è riproducibile con le fixture JVM.
+
+SORGENTI
+Overlay cumulativo sulla baseline InstaEclipse-0.7.0-relations.2-IG449-source.zip già fornita. La sorgente autorevole è candidate/.../apktool-source (Smali). Il Java della baseline è un riferimento storico; candidate/java450 contiene helper Java aggiunti/aggiornati.
+gc-diagnostic/before contiene le classi dev5 prima della prova, per revert controllato. apply_probe.py modifica solo i cinque destinatari reflection e le etichette di versione. build.sh ricompila il helper e forza la build APK; run_tests.sh testa il DEX risultante con fixture. Gli strumenti esterni e i compilati intermedi non sono inclusi nell'overlay; richiede il medesimo ambiente di build delle precedenti versioni. Chiave di firma esclusa.
+Non eseguire i vecchi apply_fix.py/apply_fixes.py sopra questa versione senza ripristinare prima il corrispondente checkpoint: sono script storici.

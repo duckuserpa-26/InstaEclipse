@@ -1,0 +1,407 @@
+C	X.000H	java.lang.Object		0
+C	X.000Y	java.lang.Object		1
+C	X.000Z	java.lang.Object		1
+C	X.000b	java.lang.Object		1
+C	X.000c	java.lang.Object		1
+C	X.000d	java.lang.Object	X.000Y	1
+C	X.000e	java.lang.Object	X.000Y	1
+C	X.000f	java.lang.Object		1
+C	X.000g	java.lang.Object		1
+C	X.000h	java.lang.Object		1
+C	X.000i	java.lang.Object		1
+C	X.000k	java.lang.Object		1
+C	X.000l	java.lang.Object		1
+C	X.000m	java.lang.Object		1
+C	X.006e	java.lang.Object		1
+C	X.006k	java.lang.Object		1
+C	X.00BV	java.lang.Object	X.0ALb,X.0ECo	0
+C	X.00DR	java.lang.Object		0
+C	X.00MR	java.lang.Object	X.0haL,X.0ggM,java.io.Serializable	0
+C	X.00N7	X.00MR		0
+C	X.00N9	X.00N7	X.0Kab	0
+C	X.00P8	java.lang.Object	X.0Kad,java.io.Serializable	0
+C	X.00Q7	java.lang.Object	X.0Kab,java.io.Serializable	0
+C	X.00Zl	java.lang.Object		0
+C	X.00Zw	java.lang.Object		1
+C	X.00a3	java.lang.Object	X.00Zw	0
+C	X.00dN	java.lang.Object		0
+C	X.00fe	java.lang.Object		0
+C	X.00hB	java.lang.Object	X.0FIo	0
+C	X.00hD	X.0FJM		0
+C	X.00uy	java.lang.Object		1
+C	X.00yo	java.lang.Object		1
+C	X.01hz	java.lang.Object		0
+C	X.01nn	java.lang.Object	X.049a	1
+C	X.01qt	java.lang.Object	X.0qGA	1
+C	X.01qv	java.lang.Object	X.0qGA	1
+C	X.01sc	X.06bJ	X.0Pjc	0
+C	X.01wH	java.lang.Object		0
+C	X.01wI	java.lang.Object	java.util.List,java.util.Collection,X.1Bal	1
+C	X.01wM	java.lang.Object	java.util.Collection,X.01wI,X.1Bal	1
+C	X.022R	java.lang.Object		0
+C	X.025g	java.lang.Object		1
+C	X.026E	java.lang.Object		1
+C	X.029N	java.lang.Object	com.facebook.graphql.modelutil.TypeModelData,X.0KaF,X.0LyP	1
+C	X.02Kj	com.instagram.realtimeclient.GraphQLSubscriptionHandler		0
+C	X.02Ne	X.0Dij		0
+C	X.02X5	java.lang.Object		1
+C	X.02Za	java.lang.Object	X.054Z	0
+C	X.02bH	java.lang.Object	X.0pvZ	0
+C	X.02ik	X.0GsQ	X.04G3	0
+C	X.02qP	java.lang.Object		0
+C	X.02qr	java.lang.Object		0
+C	X.031I	java.lang.Object		1
+C	X.0337	X.0AP9	kotlin.jvm.functions.Function3	0
+C	X.034C	java.lang.Object		1
+C	X.038E	java.lang.Object		1
+C	X.03B7	java.lang.Object	X.05G9	1
+C	X.03L8	java.lang.Object	X.0ASt	1
+C	X.03QT	java.lang.Object		1
+C	X.03qp	java.lang.Object		0
+C	X.03qw	java.lang.Object		0
+C	X.03rs	java.lang.Object		0
+C	X.03xc	com.facebook.tigon.TigonCallbacks		0
+C	X.049a	java.lang.Object	X.0EXN	1
+C	X.04G3	java.lang.Object	X.01nn	1
+C	X.04bU	java.lang.Object		0
+C	X.04h5	java.lang.Object		0
+C	X.04y2	java.lang.Object	java.io.Closeable,X.034C	0
+C	X.054K	X.0CrQ		0
+C	X.054Z	java.lang.Object		1
+C	X.05DE	java.lang.Object	java.lang.CharSequence	0
+C	X.05Fd	X.00fe	X.0AbS	0
+C	X.05G9	java.lang.Object		1
+C	X.05N2	java.lang.Object		1
+C	X.05YI	java.lang.Object		0
+C	X.05dk	java.lang.Object		0
+C	X.062I	java.lang.Object		1
+C	X.067M	java.lang.Object		1
+C	X.06Bn	X.02bH	X.0qrO,X.0aa6,androidx.compose.ui.input.pointer.SuspendingPointerInputModifierNode	0
+C	X.06D1	java.lang.Object		1
+C	X.06Oo	X.0CrQ	X.03QT	0
+C	X.06bJ	X.06c1		0
+C	X.06c1	java.lang.Object	X.00yo	0
+C	X.06i9	com.facebook.pando.TreeJNI		0
+C	X.07cr	java.lang.Object		0
+C	X.07nI	java.lang.Object		0
+C	X.07q4	java.lang.Object		0
+C	X.07r9	X.05Fd		0
+C	X.07rR	java.lang.Object		0
+C	X.07rS	java.lang.Object		0
+C	X.07rV	X.0GuQ		0
+C	X.07rX	X.00BV		0
+C	X.07s9	X.01hz		0
+C	X.08BW	android.view.GestureDetector$SimpleOnGestureListener	android.view.ScaleGestureDetector$OnScaleGestureListener	0
+C	X.08CG	X.01hz		0
+C	X.08ta	java.lang.Object	X.0FIo	0
+C	X.09MA	java.lang.Object		0
+C	X.09Zz	java.lang.Object	X.0Cij,X.0BTN,X.0DTM	0
+C	X.09sC	X.0C89	X.0Kab	0
+C	X.0A0W	java.lang.Object		1
+C	X.0ALb	java.lang.Object		1
+C	X.0AP9	X.0Ecv		0
+C	X.0ASt	java.lang.Object		1
+C	X.0ASy	androidx.fragment.app.Fragment		0
+C	X.0AbS	java.lang.Object		1
+C	X.0Ar0	java.lang.Object		1
+C	X.0B7F	java.lang.Enum	X.00uy	0
+C	X.0BNo	java.lang.Object		1
+C	X.0BTN	java.lang.Object	X.0GbD	1
+C	X.0BVa	X.00Q7	kotlin.jvm.functions.Function0	0
+C	X.0C0d	X.0AP9	X.01qt	0
+C	X.0C89	X.00MR		0
+C	X.0Cbz	java.lang.Object		1
+C	X.0Cij	java.lang.Object		1
+C	X.0CrQ	java.lang.Object	X.03QT	0
+C	X.0CxF	java.lang.Object	androidx.compose.ui.input.pointer.PointerInputEventHandler	0
+C	X.0D7t	java.lang.Object		0
+C	X.0DTM	java.lang.Object		1
+C	X.0Ddr	java.lang.Object	X.0Kad,X.0qGA	1
+C	X.0Ddu	java.lang.Object		0
+C	X.0Dhs	java.lang.Object	X.029N	1
+C	X.0Dij	X.0ASy	X.031I,X.062I,X.0BNo,X.067M,X.038E,X.0FLM,X.0HhM,X.026E,X.05N2,X.02X5	0
+C	X.0Dkq	java.lang.Object		1
+C	X.0ECo	java.lang.Object		1
+C	X.0EXN	java.lang.Object		1
+C	X.0Ecv	X.00P8	X.0Ddr,X.0Kab	0
+C	X.0FAl	java.lang.Object		1
+C	X.0FIo	java.lang.Object		1
+C	X.0FJM	java.lang.Object		0
+C	X.0FLM	java.lang.Object		1
+C	X.0Fhv	java.lang.Object		1
+C	X.0GbD	java.lang.Object		1
+C	X.0Ggy	java.lang.Object	java.io.Closeable	0
+C	X.0Gms	java.lang.Object		1
+C	X.0Grl	java.lang.Object		1
+C	X.0Grn	java.lang.Object		1
+C	X.0Gro	java.lang.Object		1
+C	X.0GsQ	java.lang.Object	X.01nn	0
+C	X.0Gsm	java.lang.Object		1
+C	X.0GuQ	X.02Za		0
+C	X.0HA2	java.lang.Object		1
+C	X.0HA8	java.lang.Object		1
+C	X.0HAA	java.lang.Object		1
+C	X.0HAB	java.lang.Object		1
+C	X.0HAC	java.lang.Object		1
+C	X.0Ha2	java.lang.Object		1
+C	X.0Ha3	java.lang.Object		1
+C	X.0Ha8	java.lang.Object		1
+C	X.0HaS	java.lang.Object		1
+C	X.0Hem	java.lang.Object	X.0Pky,X.0HA2	1
+C	X.0HhM	java.lang.Object		1
+C	X.0HiP	java.lang.Object		1
+C	X.0JaO	java.lang.Object		1
+C	X.0Jbs	java.lang.Object		1
+C	X.0Jkk	java.lang.Object		1
+C	X.0Jnl	java.lang.Object		1
+C	X.0Jqm	java.lang.Object		1
+C	X.0K70	X.01hz		0
+C	X.0KAF	java.lang.Object	X.0pvZ	1
+C	X.0KaF	java.lang.Object	X.0Jbs	1
+C	X.0Kab	java.lang.Object	X.0qGA	1
+C	X.0Kad	java.lang.Object	X.0Jnl	1
+C	X.0Kaf	java.lang.Object	X.0qgD,X.0ua1	1
+C	X.0LyP	java.lang.Object		1
+C	X.0Lyb	java.lang.Object		1
+C	X.0Lyi	java.lang.Object		1
+C	X.0LzG	java.lang.Object		1
+C	X.0M5p	X.0M5u		0
+C	X.0M5u	X.0ODL		0
+C	X.0MaY	java.lang.Object		1
+C	X.0McG	java.lang.Object		1
+C	X.0NHI	java.lang.Object		1
+C	X.0NTX	java.lang.Enum		0
+C	X.0NhB	java.lang.Object	X.0rAT,X.0Kaf	1
+C	X.0Njw	java.lang.Object		1
+C	X.0ODL	java.lang.Object		0
+C	X.0Pfg	java.lang.Object		1
+C	X.0Pjc	java.lang.Object		1
+C	X.0Pky	java.lang.Object		1
+C	X.0Poc	java.lang.Object	X.0Njw	1
+C	X.0RJc	java.lang.Object		0
+C	X.0RWf	java.lang.Object		0
+C	X.0RbX	java.lang.Object		0
+C	X.0RcC	java.lang.Object		0
+C	X.0RlM	java.lang.Object		0
+C	X.0Swm	java.lang.Object		1
+C	X.0Sxo	java.lang.Object		1
+C	X.0TGO	java.lang.Enum		0
+C	X.0TeE	java.lang.Object		0
+C	X.0ThJ	java.lang.Object		0
+C	X.0Tin	java.lang.Object		0
+C	X.0WsB	java.lang.Object		0
+C	X.0XGx	java.lang.Object		0
+C	X.0YaR	X.00Q7	X.0rAS	0
+C	X.0YfO	java.lang.Object		1
+C	X.0YlG	java.lang.Object	X.0YfO,X.0Jqm	1
+C	X.0aOa	X.02Ne		0
+C	X.0aVm	java.lang.Object		1
+C	X.0aWn	java.lang.Object		1
+C	X.0aa6	java.lang.Object	X.0qrO	1
+C	X.0aa8	java.lang.Object	X.0qrO	1
+C	X.0e1H	java.lang.Object		1
+C	X.0ekk	java.lang.Object		1
+C	X.0ggM	java.lang.Object		1
+C	X.0haL	java.lang.Object		1
+C	X.0mtv	java.lang.Object		1
+C	X.0mxV	X.00Q7	kotlin.jvm.functions.Function1	0
+C	X.0mxr	java.lang.Object		1
+C	X.0naE	java.lang.Object		1
+C	X.0ncT	java.lang.Object		1
+C	X.0nhO	java.lang.Object		1
+C	X.0pvZ	java.lang.Object		1
+C	X.0qGA	java.lang.Object		1
+C	X.0qb7	java.lang.Object		1
+C	X.0qgC	java.lang.Object		1
+C	X.0qgD	java.lang.Object		1
+C	X.0qrO	java.lang.Object	X.0aVm	1
+C	X.0rAS	java.lang.Object	X.0qGA	1
+C	X.0rAT	java.lang.Object	X.0ua1	1
+C	X.0sgo	java.lang.Object		1
+C	X.0smn	java.lang.Object		1
+C	X.0ua1	java.lang.Object	X.0qgC	1
+C	X.1Bal	java.lang.Object		1
+C	android.app.Activity	java.lang.Object		0
+C	android.content.ComponentCallbacks	java.lang.Object		1
+C	android.content.Context	java.lang.Object		0
+C	android.content.pm.PackageInfo	java.lang.Object		0
+C	android.content.pm.PackageManager	java.lang.Object		0
+C	android.graphics.Bitmap	java.lang.Object		0
+C	android.os.Bundle	java.lang.Object		0
+C	android.os.Parcelable	java.lang.Object		1
+C	android.view.GestureDetector$SimpleOnGestureListener	java.lang.Object		0
+C	android.view.LayoutInflater	java.lang.Object		0
+C	android.view.MotionEvent	java.lang.Object		0
+C	android.view.ScaleGestureDetector$OnScaleGestureListener	java.lang.Object		1
+C	android.view.View	java.lang.Object		0
+C	android.view.View$OnCreateContextMenuListener	java.lang.Object		1
+C	android.view.ViewGroup	java.lang.Object		0
+C	androidx.activity.ComponentActivity	androidx.core.app.ComponentActivity	X.000Y,X.000c,X.000b,X.000d,X.000e,X.000f,X.000h,X.000k,X.000l,X.000i,X.000m,X.000g	0
+C	androidx.appcompat.app.AppCompatActivity	androidx.fragment.app.FragmentActivity	X.006e,X.006k	0
+C	androidx.compose.runtime.MutableState	java.lang.Object	X.0Fhv	1
+C	androidx.compose.ui.input.pointer.PointerInputEventHandler	java.lang.Object		1
+C	androidx.compose.ui.input.pointer.SuspendingPointerInputModifierNode	java.lang.Object	X.0KAF	1
+C	androidx.compose.ui.input.pointer.SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine	java.lang.Object	X.0qrO,X.0haL,X.0aa8	0
+C	androidx.core.app.ComponentActivity	android.app.Activity	X.000Y,X.000Z	0
+C	androidx.fragment.app.Fragment	java.lang.Object	X.000Y,X.000c,X.000b,X.000d,X.000g,android.content.ComponentCallbacks,android.view.View$OnCreateContextMenuListener	0
+C	androidx.fragment.app.FragmentActivity	androidx.activity.ComponentActivity		0
+C	com.facebook.graphql.modelutil.TypeModelData	java.lang.Object	X.0A0W	1
+C	com.facebook.pando.TreeJNI	java.lang.Object		0
+C	com.facebook.tigon.TigonCallbacks	java.lang.Object		0
+C	com.facebook.tigon.TigonXplatService	com.facebook.tigon.iface.TigonServiceHolder		0
+C	com.facebook.tigon.iface.TigonPropertyContainer	java.lang.Object		0
+C	com.facebook.tigon.iface.TigonRequest	com.facebook.tigon.iface.TigonPropertyContainer		0
+C	com.facebook.tigon.iface.TigonServiceHolder	java.lang.Object		0
+C	com.instagram.api.schemas.ImmutablePandoVideoVersion	X.06i9	com.instagram.api.schemas.VideoVersionIntf	0
+C	com.instagram.api.schemas.VideoVersionIntf	java.lang.Object	X.0Dhs,android.os.Parcelable	1
+C	com.instagram.api.tigon.IGTigonQuickPerformanceLogger	java.lang.Object		0
+C	com.instagram.api.tigon.TigonServiceLayer	java.lang.Object	X.0HiP	0
+C	com.instagram.base.activity.BaseFragmentActivity	com.instagram.base.activity.IgFragmentActivity	X.0nhO,X.0Ha2,X.0ekk,X.0naE,X.0Swm,X.0smn,X.0FAl	0
+C	com.instagram.base.activity.IgFragmentActivity	androidx.appcompat.app.AppCompatActivity	X.0Ha8,X.0sgo,X.0McG,X.0Pfg	0
+C	com.instagram.common.session.UserSession	X.01sc		0
+C	com.instagram.feed.media.Media	java.lang.Object	X.03L8,X.025g,com.facebook.graphql.modelutil.TypeModelData,X.0Gms,X.0Dkq,X.0Jbs,X.0Cbz	0
+C	com.instagram.mainactivity.InstagramMainActivity	com.instagram.base.activity.BaseFragmentActivity	X.0mxr,X.0Poc,X.0YlG,com.instagram.modal.fragment.intf.ModalHost,X.0HA8,X.0Ha3,X.0Sxo,X.0HaS,X.0qb7,X.0MaY,X.0HAA,X.0HAC,X.0Jkk,X.0NHI,X.0Lyb,X.0Hem,X.0Lyi,X.0HAB,X.0JaO,X.0mtv,X.0e1H,X.0Grl,X.0Grn,X.0Gro,X.0Gsm,X.0LzG	0
+C	com.instagram.modal.fragment.intf.ModalHost	java.lang.Object		1
+C	com.instagram.model.mediasize.ImageInfo	java.lang.Object	X.0Dhs,android.os.Parcelable	1
+C	com.instagram.model.mediasize.VideoUrlImpl	java.lang.Object	android.os.Parcelable,X.0Ar0	0
+C	com.instagram.quicksnap.camera.domain.QuickSnapCameraViewModel	X.05Fd		0
+C	com.instagram.quicksnap.data.api.QuickSnapApi	java.lang.Object		0
+C	com.instagram.quicksnap.data.repository.QuickSnapRepository	X.04y2		0
+C	com.instagram.quicksnap.data.repository.QuickSnapRepository$quickSnapConsumptionFlow$1	X.00N9	X.01qv	0
+C	com.instagram.quicksnap.viewer.compose.PointerTouchKt$handleTapAndLongPressWithRelease$2$1$1$1	X.09sC	X.0rAS	0
+C	com.instagram.realtimeclient.GraphQLSubscriptionHandler	com.instagram.realtimeclient.RealtimeEventHandler		0
+C	com.instagram.realtimeclient.RealtimeEventHandler	java.lang.Object		0
+C	com.instagram.service.tigon.IGTigonService	com.facebook.tigon.TigonXplatService		0
+C	com.instagram.user.model.User	java.lang.Object	com.facebook.graphql.modelutil.TypeModelData,X.0Gms,X.0Dkq,X.0Jbs,X.0Cbz	0
+C	kotlin.jvm.functions.Function0	java.lang.Object	X.0qGA	1
+C	kotlin.jvm.functions.Function1	java.lang.Object	X.0qGA	1
+C	kotlin.jvm.functions.Function3	java.lang.Object	X.0qGA	1
+M	X.0FJM	A0D	(Ljava/lang/String;Ljava/lang/Object;)V	0
+M	X.0FJM	A0G	(Ljava/lang/String;)Z	0
+M	X.0FJM	A0B	(Ljava/lang/String;)V	0
+M	X.0FJM	A0E	(Ljava/util/Map;)V	0
+M	X.0FJM	A0I	()V	0
+M	X.00hD	A0I	()V	0
+F	X.0FJM	A02	Ljava/lang/Object;	0
+F	X.0FJM	A03	Ljava/util/LinkedHashMap;	0
+F	X.0FJM	A04	Ljava/util/Map;	0
+F	X.0FJM	A05	Lcom/instagram/common/session/UserSession;	0
+F	X.0XGx	A04	Ljava/lang/String;	0
+F	X.0XGx	A05	Ljava/lang/String;	0
+F	X.0XGx	A00	J	0
+M	X.00hB	A00	(Lcom/instagram/common/session/UserSession;)LX/00hB;	1
+M	X.00hB	A01	()V	0
+M	X.00hB	onSessionWillEnd	()V	0
+F	X.00hB	A04	Ljava/util/Map;	0
+M	X.0C0d	invoke	(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	0
+F	X.0C0d	$t	I	0
+F	X.00DR	A00	LX/00DR;	1
+M	X.08BW	onDoubleTap	(Landroid/view/MotionEvent;)Z	0
+F	com.instagram.api.tigon.TigonServiceLayer	session	LX/06c1;	0
+F	X.03qp	A09	Ljava/net/URI;	0
+F	X.07cr	A01	I	0
+M	com.instagram.api.tigon.TigonServiceLayer	makeTigonCallbacks	(LX/03qp;LX/03qw;Lcom/facebook/tigon/iface/TigonRequest;LX/03rs;Lcom/instagram/service/tigon/IGTigonService;Lcom/instagram/api/tigon/IGTigonQuickPerformanceLogger;I)LX/03xc;	0
+M	com.instagram.api.tigon.TigonServiceLayer	startRequest	(LX/03qp;LX/03qw;LX/03rs;)LX/03B7;	0
+M	X.03rs	A00	(LX/07cr;LX/03qp;)V	0
+M	X.03rs	A09	(LX/03qp;Ljava/nio/ByteBuffer;)V	0
+M	X.03rs	A03	(LX/03qp;)V	0
+M	X.03rs	A08	(LX/03qp;Ljava/io/IOException;)V	0
+F	X.02Kj	A01	LX/08ta;	0
+F	X.08ta	A0B	Lcom/instagram/common/session/UserSession;	0
+M	X.02Kj	onRealtimeEventPayload	(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V	0
+F	com.instagram.mainactivity.InstagramMainActivity	A05	Lcom/instagram/common/session/UserSession;	0
+F	X.07rR	A01	LX/07rS;	1
+F	X.054K	A00	LX/054K;	1
+M	X.022R	A0K	(LX/07rS;LX/03QT;Lcom/instagram/common/session/UserSession;)LX/07rV;	1
+F	X.02Za	A0H	Ljava/lang/String;	0
+M	X.02Za	A0G	(Ljava/lang/String;Ljava/lang/String;)V	0
+M	X.02Za	A0D	(Ljava/lang/String;I)V	0
+M	X.0GuQ	A0L	()LX/07rX;	0
+M	X.02qr	A03	(LX/0ALb;)V	1
+M	X.07rX	cancel	()V	0
+M	com.instagram.quicksnap.data.api.QuickSnapApi	A0A	(Ljava/util/List;LX/0haL;)Ljava/lang/Object;	0
+M	com.instagram.quicksnap.data.repository.QuickSnapRepository$quickSnapConsumptionFlow$1	invoke	(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	0
+M	com.instagram.quicksnap.data.repository.QuickSnapRepository$quickSnapConsumptionFlow$1	invokeSuspend	(Ljava/lang/Object;)Ljava/lang/Object;	0
+F	com.instagram.quicksnap.data.repository.QuickSnapRepository$quickSnapConsumptionFlow$1	A01	Ljava/lang/Object;	0
+F	X.00dN	A09	Ljava/util/List;	0
+F	X.07nI	A03	LX/0NhB;	0
+F	X.07nI	A02	Ljava/util/Set;	0
+M	X.07nI	<init>	(Lcom/instagram/common/session/UserSession;)V	0
+M	X.07nI	A01	(LX/07nI;)V	1
+M	X.0NhB	getValue	()Ljava/lang/Object;	0
+M	X.0NhB	HQR	(Ljava/lang/Object;)V	0
+M	X.07r9	<init>	(LX/0B7F;Lcom/instagram/common/session/UserSession;Lcom/instagram/quicksnap/data/repository/QuickSnapRepository;LX/07nI;LX/07q4;Ljava/lang/String;Ljava/lang/String;)V	0
+M	X.07r9	A14	()V	0
+M	X.07r9	A06	(LX/07r9;Ljava/util/List;)LX/01wM;	1
+F	X.07r9	A0R	LX/07nI;	0
+F	X.07r9	A0b	LX/0NhB;	0
+M	X.0aOa	A00	(LX/0aOa;)LX/07r9;	1
+M	X.0aOa	onCreateView	(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;	0
+M	X.0ThJ	A01	(LX/0aWn;LX/06D1;LX/08CG;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;LX/01wI;IIIIZZZZZZZZ)V	1
+M	X.0mxV	invoke	(Ljava/lang/Object;)Ljava/lang/Object;	0
+F	X.0mxV	$t	I	0
+F	X.0mxV	A00	Ljava/lang/Object;	0
+F	X.0ODL	A00	I	0
+F	X.0NTX	A01	I	0
+M	X.0M5p	<init>	(LX/0Ddu;LX/0Ddu;LX/05DE;LX/05DE;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZZZZZ)V	0
+M	X.01wH	A00	(Ljava/lang/Iterable;)LX/01wI;	1
+F	X.08CG	A02	Lcom/instagram/feed/media/Media;	0
+F	X.08CG	A06	Lcom/instagram/user/model/User;	0
+F	X.08CG	A0B	Ljava/lang/String;	0
+F	X.08CG	A0E	Z	0
+M	com.instagram.user.model.User	A89	()Ljava/lang/String;	0
+M	com.instagram.feed.media.Media	A3G	()Lcom/instagram/model/mediasize/ImageInfo;	0
+M	com.instagram.feed.media.Media	A3s	()Ljava/lang/Boolean;	0
+M	com.instagram.feed.media.Media	A8S	()Ljava/lang/String;	0
+M	com.instagram.feed.media.Media	AAk	()Ljava/util/List;	0
+M	com.instagram.model.mediasize.ImageInfo	Be2	()Ljava/util/List;	0
+M	com.instagram.api.schemas.ImmutablePandoVideoVersion	Dxb	()Ljava/lang/Integer;	0
+M	com.instagram.api.schemas.ImmutablePandoVideoVersion	CLN	()Ljava/lang/Integer;	0
+M	X.0RcC	A01	(LX/0aWn;LX/06D1;LX/0RlM;LX/07s9;LX/0ncT;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;LX/0rAS;LX/0rAS;Lkotlin/jvm/functions/Function3;IIIIIIIZZZZZZZ)V	1
+M	X.0Tin	A03	(LX/0aWn;LX/06D1;LX/0WsB;LX/07s9;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;LX/0rAS;Lkotlin/jvm/functions/Function3;LX/01wI;IIIZZZZ)V	1
+M	X.0Tin	A01	(LX/0aWn;IZ)I	1
+M	X.0YaR	invoke	(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	0
+M	X.0BVa	A04	(LX/0aWn;Ljava/lang/Object;I)LX/0BVa;	1
+M	X.0CxF	A00	(LX/0aWn;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)LX/0CxF;	1
+M	X.0CxF	<init>	(ILjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V	0
+M	X.0CxF	invoke	(LX/0aa6;LX/0haL;)Ljava/lang/Object;	0
+M	com.instagram.quicksnap.viewer.compose.PointerTouchKt$handleTapAndLongPressWithRelease$2$1$1$1	<init>	(LX/0haL;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;FJ)V	0
+M	com.instagram.quicksnap.viewer.compose.PointerTouchKt$handleTapAndLongPressWithRelease$2$1$1$1	create	(Ljava/lang/Object;LX/0haL;)LX/0haL;	0
+M	com.instagram.quicksnap.viewer.compose.PointerTouchKt$handleTapAndLongPressWithRelease$2$1$1$1	invokeSuspend	(Ljava/lang/Object;)Ljava/lang/Object;	0
+F	com.instagram.quicksnap.viewer.compose.PointerTouchKt$handleTapAndLongPressWithRelease$2$1$1$1	A06	Ljava/lang/Object;	0
+F	com.instagram.quicksnap.viewer.compose.PointerTouchKt$handleTapAndLongPressWithRelease$2$1$1$1	A03	J	0
+F	com.instagram.quicksnap.viewer.compose.PointerTouchKt$handleTapAndLongPressWithRelease$2$1$1$1	A09	Lkotlin/jvm/functions/Function0;	0
+F	com.instagram.quicksnap.viewer.compose.PointerTouchKt$handleTapAndLongPressWithRelease$2$1$1$1	A01	I	0
+F	X.05YI	A05	Ljava/util/List;	0
+F	androidx.compose.ui.input.pointer.SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine	A04	LX/06Bn;	0
+F	X.06Bn	A00	J	0
+F	X.00P8	receiver	Ljava/lang/Object;	0
+F	X.0337	$t	I	0
+F	X.07s9	A07	Ljava/util/List;	0
+F	X.07s9	A0C	LX/01wI;	0
+M	X.07s9	A04	()LX/08CG;	0
+M	X.07s9	A05	()Z	0
+M	X.000H	A0x	(Ljava/lang/Object;J)Z	1
+M	X.02qP	A0D	(Lcom/instagram/common/session/UserSession;)Z	1
+M	X.0RWf	A00	(LX/0aWn;)LX/0RJc;	1
+F	X.0RJc	A03	Landroidx/compose/runtime/MutableState;	0
+M	androidx.compose.runtime.MutableState	HQR	(Ljava/lang/Object;)V	0
+M	X.0RbX	A00	(Lcom/instagram/feed/media/Media;)LX/04bU;	1
+M	X.05dk	A02	(Ljava/util/List;)Lcom/instagram/model/mediasize/VideoUrlImpl;	1
+F	com.instagram.model.mediasize.VideoUrlImpl	A06	Ljava/lang/String;	0
+M	X.09Zz	A0V	(LX/09MA;LX/04bU;Ljava/lang/String;I)V	0
+M	X.09Zz	A0M	(F)V	0
+F	com.instagram.common.session.UserSession	isLoggedOut	Z	0
+M	com.instagram.common.session.UserSession	getUserId	()Ljava/lang/String;	0
+M	kotlin.jvm.functions.Function0	invoke	()Ljava/lang/Object;	0
+M	X.00a3	EeD	(LX/00Zl;)V	0
+M	X.00Zl	A01	(Ljava/lang/Throwable;)V	0
+M	X.06Oo	unsafeParseFromJson	(LX/0Ggy;)Ljava/lang/Object;	0
+F	X.04h5	A0A	Ljava/lang/String;	0
+F	X.04h5	A00	I	0
+M	com.instagram.api.schemas.VideoVersionIntf	getUrl	()Ljava/lang/String;	0
+M	X.0D7t	A08	(Lcom/instagram/common/session/UserSession;Lcom/instagram/feed/media/Media;)Z	0
+M	com.instagram.feed.media.Media	A87	()Ljava/lang/String;	0
+M	com.instagram.quicksnap.camera.domain.QuickSnapCameraViewModel	A01	(Landroid/content/Context;Landroid/graphics/Bitmap;LX/0K70;Lcom/instagram/quicksnap/camera/domain/QuickSnapCameraViewModel;LX/0TeE;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;LX/0haL;LX/02ik;LX/04G3;JZ)Ljava/lang/Object;	1
+M	com.instagram.quicksnap.camera.domain.QuickSnapCameraViewModel	A02	(Landroid/content/Context;Landroid/graphics/Bitmap;LX/0TGO;Lcom/instagram/quicksnap/camera/domain/QuickSnapCameraViewModel;Ljava/io/File;Ljava/lang/Float;Ljava/lang/String;LX/0haL;IIJ)Ljava/lang/Object;	1
+M	com.instagram.quicksnap.camera.domain.QuickSnapCameraViewModel	A05	(Landroid/content/Context;Landroid/graphics/Bitmap;Lcom/instagram/quicksnap/camera/domain/QuickSnapCameraViewModel;)V	1

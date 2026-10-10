@@ -1,0 +1,46 @@
+[
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/media/InstantEdgeNavigationHook.smali isolated class substitution",
+    "passed": true
+  },
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/media/InstantEdgeNavigationHook.smali all explicit lookup sites redirected",
+    "passed": true
+  },
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/media/InstantUpload450.smali isolated class substitution",
+    "passed": true
+  },
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/media/InstantUpload450.smali all explicit lookup sites redirected",
+    "passed": true
+  },
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/media/InstantReplayCore.smali isolated class substitution",
+    "passed": true
+  },
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/media/InstantReplayCore.smali all explicit lookup sites redirected",
+    "passed": true
+  },
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/misc/LikeDelayHook.smali isolated class substitution",
+    "passed": true
+  },
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/misc/LikeDelayHook.smali all explicit lookup sites redirected",
+    "passed": true
+  },
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/relations/RelationCollector.smali isolated class substitution",
+    "passed": true
+  },
+  {
+    "check": "smali_classes3/ps/reso/instaeclipse/mods/relations/RelationCollector.smali all explicit lookup sites redirected",
+    "passed": true
+  },
+  {
+    "check": "diagnostic helper has no Xposed runtime call",
+    "passed": true
+  }
+]

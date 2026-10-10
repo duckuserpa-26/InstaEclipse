@@ -1,0 +1,17 @@
+{
+  "build": "0.7.0-relations.3-IG450-dev6-gcprobe",
+  "versionCode": 73,
+  "diagnostic_only": true,
+  "apk": "deliverables/InstaEclipse-IG450-dev6-diagnostica-GC.apk",
+  "sha256": "86a8f23d02a01f80f18682ad6e1ced49409c7d36b799bbcffd195c763958cf7c",
+  "jvm_checks_passed": 143,
+  "static_checks_passed": 190,
+  "android_runtime_tests": 0,
+  "hypothesis": "explicit module deoptimization interacts with host runtime",
+  "hypothesis_confirmed": false,
+  "five_sites_redirected": true,
+  "hook_registration_code_unchanged": true,
+  "signed_dex_matches_tested": true,
+  "signature_verified_api": 33,
+  "assets_and_native_libraries_unchanged": true
+}
